@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    @font-face {
+        font-family: 'Verlag-Book';
+        font-weight: normal;
+        font-display: swap;
+        src: url('/fonts/verlag-book-webfont.woff2') format('woff2'), url('/fonts/verlag-book-webfont.woff') format('woff');
+    }
+
+}
