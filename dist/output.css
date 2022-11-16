@@ -1838,3 +1838,13 @@ video {
   --tw-content: '';
   content: var(--tw-content);
 }
+
+.prose-a\:text-white :is(:where(a):not(:where([class~="not-prose"] *))) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.prose-a\:text-clc-green :is(:where(a):not(:where([class~="not-prose"] *))) {
+  --tw-text-opacity: 1;
+  color: rgb(103 123 110 / var(--tw-text-opacity));
+}
