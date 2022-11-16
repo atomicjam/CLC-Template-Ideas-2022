@@ -1093,6 +1093,11 @@ video {
   margin-right: 0.5rem;
 }
 
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -1119,6 +1124,10 @@ video {
 
 .-mt-3 {
   margin-top: -0.75rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
 }
 
 .block {
@@ -1332,6 +1341,10 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(0px * var(--tw-space-x-reverse));
   margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .overflow-clip {
