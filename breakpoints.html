@@ -18,9 +18,10 @@
     <!-- sm breakpoint -->
     <section class="w-[640px] min-w-[640px]">
         <h2 class="w-full text-md uppercase text-gray-500 mb-4"> &#60; 640px<br />Mobile & Small screens</h2>
+
         <div class=" bg-white">
         <!-- Content -->
-            <div class="prose max-w-none p-16">
+            <div class="bg-white prose max-w-none p-16">
                 <h1 class="text-clc-green uppercase text-5xl">Heading 1</h1>
                 <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
                     aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
@@ -37,52 +38,143 @@
                     pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
             </div>
 
+            <div class="relative">
+                <div class="absolute left-0 top-0 w-full h-full z-10 bg-gradient-to-b from-white opacity-100 pointer-events-none">
+                </div>
+                <video src="/assets/video.webm" class="inline-block relative w-full h-auto z-0" autoplay muted loop
+                    playsinline></video>
+            </div>
+            
+            <div class="prose max-w-none p-16 bg-clc-green text-white">
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam similique, officia eius quas velit
+                    praesentium?
+                    Doloribus vitae voluptatum, cum, quas repellat vero ipsam expedita perferendis consequatur debitis optio
+                    reprehenderit? Voluptas.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="text-white"></th>
+                            <th class="text-white">Cohort</th>
+                            <th class="text-white">40+</th>
+                            <th class="text-white">35+</th>
+                            <th class="text-white">Avg</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2022</td>
+                            <td>26</td>
+                            <td>73.1%</td>
+                            <td>96.2%</td>
+                            <td>41.6</td>
+                        </tr>
+                        <tr>
+                            <td>2018-2021</td>
+                            <td>165</td>
+                            <td>63.0%</td>
+                            <td>91.5%</td>
+                            <td>40.2</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam similique, officia eius quas velit
+                    praesentium?
+                    Doloribus vitae voluptatum, cum, quas repellat vero ipsam expedita perferendis consequatur debitis optio
+                    reprehenderit? Voluptas.</p>
+            </div>
+
+            <div
+                class="text-white p-16 bg-clc-green relative before:content-[''] before:absolute before:bottom-0 before:w-0 before:h-0 before:border-solid before:border-t-[10px] before:border-r-[10px] before:border-b-0 before:border-l-[10px] before:left-[50%] before:translate-x-[-50%] before:translate-y-[100%] before:border-t-clc-green before:border-r-transparent before:border-b-transparent before:border-l-transparent">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium minima error adipisci et veniam aliquid
+                    molestiae repudiandae quidem, amet nulla laboriosam animi debitis itaque assumenda sunt necessitatibus, maiores,
+                    quae dolores.</p>
+            </div>
+
+            <div class="bg-white">
+                <div class="bg-white h-auto inline-block w-full p-16 text-clc-green">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Sapiente, laudantium! Dolor assumenda culpa atque repellat,
+                    suscipit amet placeat deleniti dolorem rerum quasi commodi, enim repudiandae quo accusamus facilis
+                    eligendi
+                    similique.</div>
                 <div class="relative">
                     <div class="absolute left-0 top-0 w-full h-full z-10 bg-gradient-to-b from-white opacity-100 pointer-events-none">
                     </div>
-                    <video src="/assets/video.webm" class="inline-block relative w-full h-auto z-0" autoplay muted loop
-                        playsinline></video>
+                    <img src="/assets/pic4.jpg" class="object-cover h-[520px] w-auto">
+                    <div class="block text-white text-6xl m-16 absolute top-10 left-0 z-20">
+                        THIS<br />
+                        IS<br />
+                        SPARTA
+                    </div>
+                    <div class="clear-both m-16 absolute bottom-0 left-0 z-20">
+                        <a href="#"
+                            class="antialiased text-white border-white border-[1px] px-4 py-2 my-1 inline-block w-auto float-left clear-left">Join
+                            Spartans</a>
+                        <a href="#"
+                            class="antialiased text-white border-white border-[1px] px-4 py-2 my-1 inline-block w-auto float-left clear-left">Join
+                            Athenians</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex items-stretch h-32">
+                <a href="#"
+                    class="flex text-clc-green w-1/2 text-2xl uppercase border-r-[1px] border-clc-green text-center items-center justify-center">Visit</a>
+                <a href="#" class="flex text-clc-green w-1/2 text-2xl uppercase text-center items-center justify-center">Join</a>
+            </div>
+
+            <div class="flex flex-col items-center bg-clc-gray">
+                <div class="flex flex-col items-center w-full px-16 pt-16 pb-8">
+                    <img src="/assets/CLC_Logo_Xsmall_White.svg" class="h-12 w-auto">
+                    <p class="text-white text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quasi
+                        labore fugit quod laboriosam non saepe quaerat.</p>
                 </div>
             
-            <div class="prose max-w-none p-16">
-                <h3 class="text-clc-gray uppercase text-3xl">Heading 3</h3>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <h4 class="text-clc-gray uppercase text-2xl">Heading 4</h4>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <h5 class="text-clc-gray uppercase text-xl">Heading 5</h5>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <h6 class="text-clc-gray uppercase text-lg">Heading 6</h6>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
+                <div class="w-full">
+                    <div class="text-clc-green border-b-[1px] border-black py-4 px-16">Contact <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                    <div class="text-white border-b-[1px] border-black py-4 px-16">Admissions <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                    <div class="text-white border-b-[1px] border-black py-4 px-16">Parents <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                    <div class="text-white border-b-[1px] border-black py-4 px-16">Students <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                </div>
+            
+                <div class="w-full my-8 flex flex-row justify-center">
+                    <img src="/assets/instagram-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/facebook-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/youtube-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/linkedin-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/twitter-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                </div>
+            
+                <div class="w-full flex flex-row flex-wrap">
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">Employment</div>
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">Venue hire</div>
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">Guild</div>
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">FAQs</div>
+                </div>
+            
+                <div class="w-full my-8 flex flex-row justify-center text-white">
+                    <a href="#">Privacy Policy</a>
+                    <span class="mx-2">|</span>
+                    <a href="#">Site Map</a>
+                </div>
+            
             </div>
+
         </div>
+
     </section>
 
     <!-- md breakpoint -->
     <section class="w-[768px] min-w-[768px]">
         <h2 class="w-full text-md uppercase text-gray-500 mb-4">768px<br />Tablet & Medium screens</h2>
+
         <div class=" bg-white">
             <!-- Content -->
-            <div class="prose max-w-none p-16">
+            <div class="bg-white prose max-w-none p-16">
                 <h1 class="text-clc-green uppercase text-5xl">Heading 1</h1>
                 <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
                     aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
@@ -107,45 +199,140 @@
                     playsinline></video>
             </div>
         
-            <div class="prose max-w-none p-16">
-                <h3 class="text-clc-gray uppercase text-3xl">Heading 3</h3>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <h4 class="text-clc-gray uppercase text-2xl">Heading 4</h4>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <h5 class="text-clc-gray uppercase text-xl">Heading 5</h5>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <h6 class="text-clc-gray uppercase text-lg">Heading 6</h6>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
+            <div class="prose max-w-none p-16 bg-clc-green text-white">
+        
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam similique, officia eius quas velit
+                    praesentium?
+                    Doloribus vitae voluptatum, cum, quas repellat vero ipsam expedita perferendis consequatur debitis optio
+                    reprehenderit? Voluptas.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="text-white"></th>
+                            <th class="text-white">Cohort</th>
+                            <th class="text-white">40+</th>
+                            <th class="text-white">35+</th>
+                            <th class="text-white">Avg</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2022</td>
+                            <td>26</td>
+                            <td>73.1%</td>
+                            <td>96.2%</td>
+                            <td>41.6</td>
+                        </tr>
+                        <tr>
+                            <td>2018-2021</td>
+                            <td>165</td>
+                            <td>63.0%</td>
+                            <td>91.5%</td>
+                            <td>40.2</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam similique, officia eius quas velit
+                    praesentium?
+                    Doloribus vitae voluptatum, cum, quas repellat vero ipsam expedita perferendis consequatur debitis optio
+                    reprehenderit? Voluptas.</p>
             </div>
+        
+            <div
+                class="text-white p-16 bg-clc-green relative before:content-[''] before:absolute before:bottom-0 before:w-0 before:h-0 before:border-solid before:border-t-[10px] before:border-r-[10px] before:border-b-0 before:border-l-[10px] before:left-[50%] before:translate-x-[-50%] before:translate-y-[100%] before:border-t-clc-green before:border-r-transparent before:border-b-transparent before:border-l-transparent">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium minima error adipisci et veniam aliquid
+                    molestiae repudiandae quidem, amet nulla laboriosam animi debitis itaque assumenda sunt necessitatibus,
+                    maiores,
+                    quae dolores.</p>
+            </div>
+        
+            <div class="bg-white">
+                <div class="bg-white h-auto inline-block w-full p-16 text-clc-green">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Sapiente, laudantium! Dolor assumenda culpa atque repellat,
+                    suscipit amet placeat deleniti dolorem rerum quasi commodi, enim repudiandae quo accusamus facilis
+                    eligendi
+                    similique.</div>
+                <div class="relative">
+                    <div
+                        class="absolute left-0 top-0 w-full h-full z-10 bg-gradient-to-b from-white opacity-100 pointer-events-none">
+                    </div>
+                    <img src="/assets/pic4.jpg" class="object-cover h-auto w-auto">
+                    <div class="block text-white text-6xl m-16 absolute top-10 left-0 z-20">
+                        THIS<br />
+                        IS<br />
+                        SPARTA
+                    </div>
+                    <div class="clear-both m-16 absolute bottom-0 left-0 z-20">
+                        <a href="#"
+                            class="antialiased text-white border-white border-[1px] px-4 py-2 my-1 inline-block w-auto float-left clear-left">Join
+                            Spartans</a>
+                        <a href="#"
+                            class="antialiased text-white border-white border-[1px] px-4 py-2 my-1 inline-block w-auto float-left clear-left">Join
+                            Athenians</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="flex items-stretch h-32">
+                <a href="#"
+                    class="flex text-clc-green w-1/2 text-2xl uppercase border-r-[1px] border-clc-green text-center items-center justify-center">Visit</a>
+                <a href="#"
+                    class="flex text-clc-green w-1/2 text-2xl uppercase text-center items-center justify-center">Join</a>
+            </div>
+        
+            <div class="flex flex-col items-center bg-clc-gray">
+                <div class="flex flex-col items-center w-full px-16 pt-16 pb-8">
+                    <img src="/assets/CLC_Logo_Xsmall_White.svg" class="h-12 w-auto">
+                    <p class="text-white text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                        quasi
+                        labore fugit quod laboriosam non saepe quaerat.</p>
+                </div>
+        
+                <div class="w-full">
+                    <div class="text-clc-green border-b-[1px] border-black py-4 px-16">Contact <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                    <div class="text-white border-b-[1px] border-black py-4 px-16">Admissions <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                    <div class="text-white border-b-[1px] border-black py-4 px-16">Parents <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                    <div class="text-white border-b-[1px] border-black py-4 px-16">Students <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                </div>
+        
+                <div class="w-full my-8 flex flex-row justify-center">
+                    <img src="/assets/instagram-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/facebook-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/youtube-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/linkedin-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/twitter-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                </div>
+        
+                <div class="w-full flex flex-row flex-wrap">
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">Employment</div>
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">Venue hire</div>
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">Guild</div>
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">FAQs</div>
+                </div>
+        
+                <div class="w-full my-8 flex flex-row justify-center text-white">
+                    <a href="#">Privacy Policy</a>
+                    <span class="mx-2">|</span>
+                    <a href="#">Site Map</a>
+                </div>
+        
+            </div>
+        
         </div>
+
     </section>
 
     <!-- lg breakpoint -->
     <section class="w-[1024px] min-w-[1024px]">
         <h2 class="w-full text-md uppercase text-gray-500 mb-4">1024px<br />Laptop & Large screens</h2>
+
         <div class=" bg-white">
             <!-- Content -->
-            <div class="prose max-w-none p-16">
+            <div class="bg-white prose max-w-none p-16">
                 <h1 class="text-clc-green uppercase text-5xl">Heading 1</h1>
                 <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
                     aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
@@ -170,45 +357,140 @@
                     playsinline></video>
             </div>
         
-            <div class="prose max-w-none p-16">
-                <h3 class="text-clc-gray uppercase text-3xl">Heading 3</h3>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <h4 class="text-clc-gray uppercase text-2xl">Heading 4</h4>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <h5 class="text-clc-gray uppercase text-xl">Heading 5</h5>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <h6 class="text-clc-gray uppercase text-lg">Heading 6</h6>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
+            <div class="prose max-w-none p-16 bg-clc-green text-white">
+        
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam similique, officia eius quas velit
+                    praesentium?
+                    Doloribus vitae voluptatum, cum, quas repellat vero ipsam expedita perferendis consequatur debitis optio
+                    reprehenderit? Voluptas.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="text-white"></th>
+                            <th class="text-white">Cohort</th>
+                            <th class="text-white">40+</th>
+                            <th class="text-white">35+</th>
+                            <th class="text-white">Avg</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2022</td>
+                            <td>26</td>
+                            <td>73.1%</td>
+                            <td>96.2%</td>
+                            <td>41.6</td>
+                        </tr>
+                        <tr>
+                            <td>2018-2021</td>
+                            <td>165</td>
+                            <td>63.0%</td>
+                            <td>91.5%</td>
+                            <td>40.2</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam similique, officia eius quas velit
+                    praesentium?
+                    Doloribus vitae voluptatum, cum, quas repellat vero ipsam expedita perferendis consequatur debitis optio
+                    reprehenderit? Voluptas.</p>
             </div>
+        
+            <div
+                class="text-white p-16 bg-clc-green relative before:content-[''] before:absolute before:bottom-0 before:w-0 before:h-0 before:border-solid before:border-t-[10px] before:border-r-[10px] before:border-b-0 before:border-l-[10px] before:left-[50%] before:translate-x-[-50%] before:translate-y-[100%] before:border-t-clc-green before:border-r-transparent before:border-b-transparent before:border-l-transparent">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium minima error adipisci et veniam aliquid
+                    molestiae repudiandae quidem, amet nulla laboriosam animi debitis itaque assumenda sunt necessitatibus,
+                    maiores,
+                    quae dolores.</p>
+            </div>
+        
+            <div class="bg-white">
+                <div class="bg-white h-auto inline-block w-full p-16 text-clc-green">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Sapiente, laudantium! Dolor assumenda culpa atque repellat,
+                    suscipit amet placeat deleniti dolorem rerum quasi commodi, enim repudiandae quo accusamus facilis
+                    eligendi
+                    similique.</div>
+                <div class="relative">
+                    <div
+                        class="absolute left-0 top-0 w-full h-full z-10 bg-gradient-to-b from-white opacity-100 pointer-events-none">
+                    </div>
+                    <img src="/assets/pic4.jpg" class="object-cover h-auto w-auto">
+                    <div class="block text-white text-6xl m-16 absolute top-10 left-0 z-20">
+                        THIS<br />
+                        IS<br />
+                        SPARTA
+                    </div>
+                    <div class="clear-both m-16 absolute bottom-0 left-0 z-20">
+                        <a href="#"
+                            class="antialiased text-white border-white border-[1px] px-4 py-2 my-1 inline-block w-auto float-left clear-left">Join
+                            Spartans</a>
+                        <a href="#"
+                            class="antialiased text-white border-white border-[1px] px-4 py-2 my-1 inline-block w-auto float-left clear-left">Join
+                            Athenians</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="flex items-stretch h-32">
+                <a href="#"
+                    class="flex text-clc-green w-1/2 text-2xl uppercase border-r-[1px] border-clc-green text-center items-center justify-center">Visit</a>
+                <a href="#"
+                    class="flex text-clc-green w-1/2 text-2xl uppercase text-center items-center justify-center">Join</a>
+            </div>
+        
+            <div class="flex flex-col items-center bg-clc-gray">
+                <div class="flex flex-col items-center w-full px-16 pt-16 pb-8">
+                    <img src="/assets/CLC_Logo_Xsmall_White.svg" class="h-12 w-auto">
+                    <p class="text-white text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                        quasi
+                        labore fugit quod laboriosam non saepe quaerat.</p>
+                </div>
+        
+                <div class="w-full">
+                    <div class="text-clc-green border-b-[1px] border-black py-4 px-16">Contact <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                    <div class="text-white border-b-[1px] border-black py-4 px-16">Admissions <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                    <div class="text-white border-b-[1px] border-black py-4 px-16">Parents <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                    <div class="text-white border-b-[1px] border-black py-4 px-16">Students <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                </div>
+        
+                <div class="w-full my-8 flex flex-row justify-center">
+                    <img src="/assets/instagram-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/facebook-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/youtube-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/linkedin-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/twitter-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                </div>
+        
+                <div class="w-full flex flex-row flex-wrap">
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">Employment</div>
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">Venue hire</div>
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">Guild</div>
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">FAQs</div>
+                </div>
+        
+                <div class="w-full my-8 flex flex-row justify-center text-white">
+                    <a href="#">Privacy Policy</a>
+                    <span class="mx-2">|</span>
+                    <a href="#">Site Map</a>
+                </div>
+        
+            </div>
+        
         </div>
+
     </section>
 
     <!-- xl breakpoint -->
     <section class="w-[1280px] min-w-[1280px]">
         <h2 class="w-full text-md uppercase text-gray-500 mb-4">1280px<br />Desktop & Extra Large screens</h2>
+
         <div class=" bg-white">
             <!-- Content -->
-            <div class="prose max-w-none p-16">
+            <div class="bg-white prose max-w-none p-16">
                 <h1 class="text-clc-green uppercase text-5xl">Heading 1</h1>
                 <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
                     aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
@@ -233,45 +515,140 @@
                     playsinline></video>
             </div>
         
-            <div class="prose max-w-none p-16">
-                <h3 class="text-clc-gray uppercase text-3xl">Heading 3</h3>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <h4 class="text-clc-gray uppercase text-2xl">Heading 4</h4>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <h5 class="text-clc-gray uppercase text-xl">Heading 5</h5>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <h6 class="text-clc-gray uppercase text-lg">Heading 6</h6>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
+            <div class="prose max-w-none p-16 bg-clc-green text-white">
+        
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam similique, officia eius quas velit
+                    praesentium?
+                    Doloribus vitae voluptatum, cum, quas repellat vero ipsam expedita perferendis consequatur debitis optio
+                    reprehenderit? Voluptas.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="text-white"></th>
+                            <th class="text-white">Cohort</th>
+                            <th class="text-white">40+</th>
+                            <th class="text-white">35+</th>
+                            <th class="text-white">Avg</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2022</td>
+                            <td>26</td>
+                            <td>73.1%</td>
+                            <td>96.2%</td>
+                            <td>41.6</td>
+                        </tr>
+                        <tr>
+                            <td>2018-2021</td>
+                            <td>165</td>
+                            <td>63.0%</td>
+                            <td>91.5%</td>
+                            <td>40.2</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam similique, officia eius quas velit
+                    praesentium?
+                    Doloribus vitae voluptatum, cum, quas repellat vero ipsam expedita perferendis consequatur debitis optio
+                    reprehenderit? Voluptas.</p>
             </div>
+        
+            <div
+                class="text-white p-16 bg-clc-green relative before:content-[''] before:absolute before:bottom-0 before:w-0 before:h-0 before:border-solid before:border-t-[10px] before:border-r-[10px] before:border-b-0 before:border-l-[10px] before:left-[50%] before:translate-x-[-50%] before:translate-y-[100%] before:border-t-clc-green before:border-r-transparent before:border-b-transparent before:border-l-transparent">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium minima error adipisci et veniam aliquid
+                    molestiae repudiandae quidem, amet nulla laboriosam animi debitis itaque assumenda sunt necessitatibus,
+                    maiores,
+                    quae dolores.</p>
+            </div>
+        
+            <div class="bg-white">
+                <div class="bg-white h-auto inline-block w-full p-16 text-clc-green">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Sapiente, laudantium! Dolor assumenda culpa atque repellat,
+                    suscipit amet placeat deleniti dolorem rerum quasi commodi, enim repudiandae quo accusamus facilis
+                    eligendi
+                    similique.</div>
+                <div class="relative">
+                    <div
+                        class="absolute left-0 top-0 w-full h-full z-10 bg-gradient-to-b from-white opacity-100 pointer-events-none">
+                    </div>
+                    <img src="/assets/pic4.jpg" class="object-cover h-auto w-auto">
+                    <div class="block text-white text-6xl m-16 absolute top-10 left-0 z-20">
+                        THIS<br />
+                        IS<br />
+                        SPARTA
+                    </div>
+                    <div class="clear-both m-16 absolute bottom-0 left-0 z-20">
+                        <a href="#"
+                            class="antialiased text-white border-white border-[1px] px-4 py-2 my-1 inline-block w-auto float-left clear-left">Join
+                            Spartans</a>
+                        <a href="#"
+                            class="antialiased text-white border-white border-[1px] px-4 py-2 my-1 inline-block w-auto float-left clear-left">Join
+                            Athenians</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="flex items-stretch h-32">
+                <a href="#"
+                    class="flex text-clc-green w-1/2 text-2xl uppercase border-r-[1px] border-clc-green text-center items-center justify-center">Visit</a>
+                <a href="#"
+                    class="flex text-clc-green w-1/2 text-2xl uppercase text-center items-center justify-center">Join</a>
+            </div>
+        
+            <div class="flex flex-col items-center bg-clc-gray">
+                <div class="flex flex-col items-center w-full px-16 pt-16 pb-8">
+                    <img src="/assets/CLC_Logo_Xsmall_White.svg" class="h-12 w-auto">
+                    <p class="text-white text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                        quasi
+                        labore fugit quod laboriosam non saepe quaerat.</p>
+                </div>
+        
+                <div class="w-full">
+                    <div class="text-clc-green border-b-[1px] border-black py-4 px-16">Contact <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                    <div class="text-white border-b-[1px] border-black py-4 px-16">Admissions <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                    <div class="text-white border-b-[1px] border-black py-4 px-16">Parents <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                    <div class="text-white border-b-[1px] border-black py-4 px-16">Students <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                </div>
+        
+                <div class="w-full my-8 flex flex-row justify-center">
+                    <img src="/assets/instagram-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/facebook-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/youtube-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/linkedin-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/twitter-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                </div>
+        
+                <div class="w-full flex flex-row flex-wrap">
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">Employment</div>
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">Venue hire</div>
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">Guild</div>
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">FAQs</div>
+                </div>
+        
+                <div class="w-full my-8 flex flex-row justify-center text-white">
+                    <a href="#">Privacy Policy</a>
+                    <span class="mx-2">|</span>
+                    <a href="#">Site Map</a>
+                </div>
+        
+            </div>
+        
         </div>
+
     </section>
 
     <!-- 2xl breakpoint -->
     <section class="w-[1536px] min-w-[1536px]">
         <h2 class="w-full text-md uppercase text-gray-500 mb-4">1526px<br />HD & High Pixel Density Screens</h2>
+
         <div class=" bg-white">
             <!-- Content -->
-            <div class="prose max-w-none p-16">
+            <div class="bg-white prose max-w-none p-16">
                 <h1 class="text-clc-green uppercase text-5xl">Heading 1</h1>
                 <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
                     aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
@@ -296,40 +673,133 @@
                     playsinline></video>
             </div>
         
-            <div class="prose max-w-none p-16">
-                <h3 class="text-clc-gray uppercase text-3xl">Heading 3</h3>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <h4 class="text-clc-gray uppercase text-2xl">Heading 4</h4>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <h5 class="text-clc-gray uppercase text-xl">Heading 5</h5>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <h6 class="text-clc-gray uppercase text-lg">Heading 6</h6>
-                <p class="text-clc-gray ">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
-                <p class="text-clc-gray">Paragraph Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut sint
-                    aliquam doloribus quia tempore dolor dolores assumenda esse dolorem nemo blanditiis incidunt rerum
-                    pariatur reiciendis ducimus odio ex, facilis officia! <a href="#">Hyperlink Text</a></p>
+            <div class="prose max-w-none p-16 bg-clc-green text-white">
+        
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam similique, officia eius quas velit
+                    praesentium?
+                    Doloribus vitae voluptatum, cum, quas repellat vero ipsam expedita perferendis consequatur debitis optio
+                    reprehenderit? Voluptas.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="text-white"></th>
+                            <th class="text-white">Cohort</th>
+                            <th class="text-white">40+</th>
+                            <th class="text-white">35+</th>
+                            <th class="text-white">Avg</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2022</td>
+                            <td>26</td>
+                            <td>73.1%</td>
+                            <td>96.2%</td>
+                            <td>41.6</td>
+                        </tr>
+                        <tr>
+                            <td>2018-2021</td>
+                            <td>165</td>
+                            <td>63.0%</td>
+                            <td>91.5%</td>
+                            <td>40.2</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam similique, officia eius quas velit
+                    praesentium?
+                    Doloribus vitae voluptatum, cum, quas repellat vero ipsam expedita perferendis consequatur debitis optio
+                    reprehenderit? Voluptas.</p>
             </div>
+        
+            <div
+                class="text-white p-16 bg-clc-green relative before:content-[''] before:absolute before:bottom-0 before:w-0 before:h-0 before:border-solid before:border-t-[10px] before:border-r-[10px] before:border-b-0 before:border-l-[10px] before:left-[50%] before:translate-x-[-50%] before:translate-y-[100%] before:border-t-clc-green before:border-r-transparent before:border-b-transparent before:border-l-transparent">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium minima error adipisci et veniam aliquid
+                    molestiae repudiandae quidem, amet nulla laboriosam animi debitis itaque assumenda sunt necessitatibus,
+                    maiores,
+                    quae dolores.</p>
+            </div>
+        
+            <div class="bg-white">
+                <div class="bg-white h-auto inline-block w-full p-16 text-clc-green">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Sapiente, laudantium! Dolor assumenda culpa atque repellat,
+                    suscipit amet placeat deleniti dolorem rerum quasi commodi, enim repudiandae quo accusamus facilis
+                    eligendi
+                    similique.</div>
+                <div class="relative">
+                    <div
+                        class="absolute left-0 top-0 w-full h-full z-10 bg-gradient-to-b from-white opacity-100 pointer-events-none">
+                    </div>
+                    <img src="/assets/pic4.jpg" class="object-cover h-auto w-auto">
+                    <div class="block text-white text-6xl m-16 absolute top-10 left-0 z-20">
+                        THIS<br />
+                        IS<br />
+                        SPARTA
+                    </div>
+                    <div class="clear-both m-16 absolute bottom-0 left-0 z-20">
+                        <a href="#"
+                            class="antialiased text-white border-white border-[1px] px-4 py-2 my-1 inline-block w-auto float-left clear-left">Join
+                            Spartans</a>
+                        <a href="#"
+                            class="antialiased text-white border-white border-[1px] px-4 py-2 my-1 inline-block w-auto float-left clear-left">Join
+                            Athenians</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="flex items-stretch h-32">
+                <a href="#"
+                    class="flex text-clc-green w-1/2 text-2xl uppercase border-r-[1px] border-clc-green text-center items-center justify-center">Visit</a>
+                <a href="#"
+                    class="flex text-clc-green w-1/2 text-2xl uppercase text-center items-center justify-center">Join</a>
+            </div>
+        
+            <div class="flex flex-col items-center bg-clc-gray">
+                <div class="flex flex-col items-center w-full px-16 pt-16 pb-8">
+                    <img src="/assets/CLC_Logo_Xsmall_White.svg" class="h-12 w-auto">
+                    <p class="text-white text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                        quasi
+                        labore fugit quod laboriosam non saepe quaerat.</p>
+                </div>
+        
+                <div class="w-full">
+                    <div class="text-clc-green border-b-[1px] border-black py-4 px-16">Contact <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                    <div class="text-white border-b-[1px] border-black py-4 px-16">Admissions <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                    <div class="text-white border-b-[1px] border-black py-4 px-16">Parents <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                    <div class="text-white border-b-[1px] border-black py-4 px-16">Students <span
+                            class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                </div>
+        
+                <div class="w-full my-8 flex flex-row justify-center">
+                    <img src="/assets/instagram-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/facebook-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/youtube-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/linkedin-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                    <img src="/assets/twitter-grey.svg" class="rounded-full w-10 h-10 mx-2">
+                </div>
+        
+                <div class="w-full flex flex-row flex-wrap">
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">Employment</div>
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">Venue hire</div>
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">Guild</div>
+                    <div class="text-clc-green w-1/2 border-[1px] border-black py-4 text-center">FAQs</div>
+                </div>
+        
+                <div class="w-full my-8 flex flex-row justify-center text-white">
+                    <a href="#">Privacy Policy</a>
+                    <span class="mx-2">|</span>
+                    <a href="#">Site Map</a>
+                </div>
+        
+            </div>
+        
         </div>
+
     </section>
         
-
     </div>   
 </body>
 </html>
