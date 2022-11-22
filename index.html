@@ -230,7 +230,7 @@
 
         <div class="italic text-neutral-500 mt-4">
             <h2 class="text-black text-lg uppercase my-2 not-italic">Notes</h2>
-            <p>Should text scale with breakpoints?</p>
+            <p>Should text scale with breakpoints? i.e. are we always trying to fill viewport?</p>
         </div>
 
     </div>
@@ -473,6 +473,7 @@
     <div class="italic text-neutral-500 mt-4">
         <h2 class="text-black text-lg uppercase my-2 not-italic">Notes</h2>
         <p>Any additional style for action button :hover</p>
+        <p>Other buttons stack, should these not for consistancy?</p>
     </div>
 
     </div>
@@ -503,8 +504,8 @@
                     suscipit amet placeat deleniti dolorem rerum quasi commodi, enim repudiandae quo accusamus facilis
                     eligendi
                     similique."</div>
-                <div class="block text-xl text-clc-gray italic">Eve Jardine-Young</div>
-                <div class="block text-xl text-clc-gray italic">Principal</div>
+                <div class="block text-xl text-white italic">Eve Jardine-Young</div>
+                <div class="block text-xl text-white italic">Principal</div>
                 <div class="flex place-content-end">
                     <a href="#"><img src="/assets/player.jpg" class="w-20 h-20 rounded-full m-2 grayscale" /></a>
                     <img src="/assets/eve.jpg" class="w-20 h-20 rounded-full m-2" />
@@ -857,7 +858,7 @@
                     40+ Points
                 </div>
                 <div class="text-6xl text-white border-b-2 border-clc-silver py-6">
-                    <div class="float-right text-clc-silver text-base inline-block w-20 pt-2">A-Level</div>
+                    <div class="float-right text-clc-silver text-base inline-block w-20 pt-2">A Level</div>
                     <strong>43.2%</strong><br />
                     A*
                 </div>
@@ -875,7 +876,7 @@
                     40+ Points
                 </div>
                 <div class="text-6xl text-white border-b-2 border-clc-silver py-6">
-                    <div class="float-right text-clc-silver text-base inline-block w-20 pt-2">A-Level</div>
+                    <div class="float-right text-clc-silver text-base inline-block w-20 pt-2">A Level</div>
                     <strong>43.2%</strong><br />
                     A*
                 </div>
@@ -1060,7 +1061,7 @@
     
             <div class="italic text-neutral-500 mt-4">
                 <h2 class="text-black text-lg uppercase my-2 not-italic">Notes</h2>
-                <p>Is this how all Unordered lists should look?</p>
+                <p>Is this how all Unordered lists should look? What about Ordered Lists and Definition Lists?</p>
             </div>
     
         </div>
@@ -1079,7 +1080,7 @@
                 <div x-data="{open:false}">
                     <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
                         <p class="pr-4 my-4 text-clc-green text-3xl uppercase">Virtual Visits</p>
-                        <button x-html="open ? '-' :'+' " class="px-2 text-clc-silver hover:text-clc-green font-thin text-4xl"></button>
+                        <button x-html="open ? '-' :'+' " class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
                     </div>
                     <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis molestias!</p>
@@ -1090,7 +1091,7 @@
                 <div x-data="{open:false}">
                     <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
                         <p class="pr-4 my-4 text-clc-green text-3xl uppercase">Register</p>
-                        <button x-html="open ? '-' :'+' " class="px-2 text-clc-silver hover:text-clc-green font-thin text-4xl"></button>
+                        <button x-html="open ? '-' :'+' " class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
                     </div>
                     <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis molestias!
@@ -1102,7 +1103,7 @@
                 <div x-data="{open:false}">
                     <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
                         <p class="pr-4 my-4 text-clc-green text-3xl uppercase">Visit Us</p>
-                        <button x-html="open ? '-' :'+' " class="px-2 text-clc-silver hover:text-clc-green font-thin text-4xl"></button>
+                        <button x-html="open ? '-' :'+' " class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
                     </div>
                     <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis molestias!
@@ -1114,7 +1115,7 @@
                 <div x-data="{open:false}">
                     <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
                         <p class="pr-4 my-4 text-clc-green text-3xl uppercase">Offers</p>
-                        <button x-html="open ? '-' :'+' " class="px-2 text-clc-silver hover:text-gray-500 font-thin text-4xl"></button>
+                        <button x-html="open ? '-' :'+' " class="px-2 text-clc-silver hover:text-gray-500 font-thin text-2xl font-serif"></button>
                     </div>
                     <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis molestias!
@@ -1141,7 +1142,7 @@
                         <div x-data="{open:false}">
                             <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
                                 <p class="pr-4 my-4 text-white text-3xl uppercase">Virtual Visits</p>
-                                <button x-html="open ? '-' :'+'" class="px-2 text-white hover:text-white font-thin text-4xl"></button>
+                                <button x-html="open ? '-' :'+'" class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
                             </div>
                             <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
@@ -1154,7 +1155,7 @@
                             <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
                                 <p class="pr-4 my-4 text-white text-3xl uppercase">Register</p>
                                 <button x-html="open ? '-' :'+' "
-                                    class="px-2 text-white hover:text-white font-thin text-4xl"></button>
+                                    class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
                             </div>
                             <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
@@ -1168,7 +1169,7 @@
                             <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
                                 <p class="pr-4 my-4 text-white text-3xl uppercase">Visit Us</p>
                                 <button x-html="open ? '-' :'+' "
-                                    class="px-2 text-white hover:text-white font-thin text-4xl"></button>
+                                    class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
                             </div>
                             <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
@@ -1182,7 +1183,7 @@
                             <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
                                 <p class="pr-4 my-4 text-white text-3xl uppercase">Offers</p>
                                 <button x-html="open ? '-' :'+' "
-                                    class="px-2 text-white hover:text-white font-thin text-4xl"></button>
+                                    class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
                             </div>
                             <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
@@ -1214,7 +1215,7 @@
                             <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
                                 <p class="pr-4 my-4 text-white text-3xl uppercase">Virtual Visits</p>
                                 <button x-html="open ? '-' :'+' "
-                                    class="px-2 text-white hover:text-clc-green font-thin text-4xl"></button>
+                                    class="px-2 text-white hover:text-clc-green font-thin text-2xl font-serif"></button>
                             </div>
                             <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
@@ -1227,7 +1228,7 @@
                             <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
                                 <p class="pr-4 my-4 text-white text-3xl uppercase">Register</p>
                                 <button x-html="open ? '-' :'+' "
-                                    class="px-2 text-white hover:text-clc-green font-thin text-4xl"></button>
+                                    class="px-2 text-white hover:text-clc-green font-thin text-2xl font-serif"></button>
                             </div>
                             <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
@@ -1241,7 +1242,7 @@
                             <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
                                 <p class="pr-4 my-4 text-white text-3xl uppercase">Visit Us</p>
                                 <button x-html="open ? '-' :'+' "
-                                    class="px-2 text-white hover:text-clc-green font-thin text-4xl"></button>
+                                    class="px-2 text-white hover:text-clc-green font-thin text-2xl font-serif"></button>
                             </div>
                             <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
@@ -1255,7 +1256,7 @@
                             <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
                                 <p class="pr-4 my-4 text-white text-3xl uppercase">Offers</p>
                                 <button x-html="open ? '-' :'+' "
-                                    class="px-2 text-white hover:text-clc-green font-thin text-4xl"></button>
+                                    class="px-2 text-white hover:text-clc-green font-thin text-2xl font-serif"></button>
                             </div>
                             <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
@@ -1509,10 +1510,62 @@
                 </div>
 
                 <div class="w-full">
-                    <div class="text-clc-green border-b-[1px] border-black py-4 px-16">Contact <span class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
-                    <div class="text-white border-b-[1px] border-black py-4 px-16">Admissions <span class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
-                    <div class="text-white border-b-[1px] border-black py-4 px-16">Parents <span class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
-                    <div class="text-white border-b-[1px] border-black py-4 px-16">Students <span class="text-white float-right text-4xl -mt-3 font-thin">+</span></div>
+                    <div x-data="{open:false}" class="">
+                        <div class="px-16 flex justify-between items-center cursor-pointer" @click="open=!open">
+                            <p class="my-4 text-white hover:text-clc-green">Contact</p>
+                            <button x-html="open ? '-' :'+' "
+                                class="text-white hover:text-clc-green font-thin text-2xl font-serif"></button>
+                        </div>
+                        <div x-show="open" x-cloak class="px-16 py-4 prose text-white" x-transition>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                                molestias!
+                            </p>
+                        </div>
+                        <hr class="border-b-[0px] border-black">
+                    </div>
+
+                    <div x-data="{open:false}" class="">
+                        <div class="px-16 flex justify-between items-center cursor-pointer" @click="open=!open">
+                            <p class="my-4 text-white hover:text-clc-green">Admissions</p>
+                            <button x-html="open ? '-' :'+' "
+                                class="text-white hover:text-clc-green font-thin text-2xl font-serif"></button>
+                        </div>
+                        <div x-show="open" x-cloak class="px-16 py-4 prose text-white" x-transition>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                                molestias!
+                            </p>
+                        </div>
+                        <hr class="border-b-[0px] border-black">
+                    </div>
+
+                    <div x-data="{open:false}" class="">
+                        <div class="px-16 flex justify-between items-center cursor-pointer" @click="open=!open">
+                            <p class="my-4 text-white hover:text-clc-green">Parents</p>
+                            <button x-html="open ? '-' :'+' "
+                                class="text-white hover:text-clc-green font-thin text-2xl font-serif"></button>
+                        </div>
+                        <div x-show="open" x-cloak class="px-16 py-4 prose text-white" x-transition>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                                molestias!
+                            </p>
+                        </div>
+                        <hr class="border-b-[0px] border-black">
+                    </div>
+
+                    <div x-data="{open:false}" class="">
+                        <div class="px-16 flex justify-between items-center cursor-pointer" @click="open=!open">
+                            <p class="my-4 text-white hover:text-clc-green">Students</p>
+                            <button x-html="open ? '-' :'+' "
+                                class="text-white hover:text-clc-green font-thin text-2xl font-serif"></button>
+                        </div>
+                        <div x-show="open" x-cloak class="px-16 py-4 prose text-white" x-transition>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                                molestias!
+                            </p>
+                        </div>
+                        <hr class="border-b-[0px] border-black">
+                    </div>
+
                 </div>
 
                 <div class="w-full my-8 flex flex-row justify-center">

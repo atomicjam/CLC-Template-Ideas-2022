@@ -1464,6 +1464,10 @@ video {
   border-right-width: 1px;
 }
 
+.border-b-\[0px\] {
+  border-bottom-width: 0px;
+}
+
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
@@ -1636,6 +1640,11 @@ video {
   padding-right: 4rem;
 }
 
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .pt-8 {
   padding-top: 2rem;
 }
@@ -1672,8 +1681,20 @@ video {
   padding-bottom: 2rem;
 }
 
+.pr-0 {
+  padding-right: 0px;
+}
+
 .text-center {
   text-align: center;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-xl {
