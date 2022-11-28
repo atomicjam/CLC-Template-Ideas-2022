@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
-  content: ["./index.html", "./breakpoints.html"],
+  content: ["./index.html", "./breakpoints.html" ,"./components.html"],
   theme: {
     extend: {
             colors: {
