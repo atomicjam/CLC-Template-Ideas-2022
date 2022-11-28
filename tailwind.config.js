@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {
             colors: {
-                'clc-green': '#677b6e',
+                'clc-green': 'rgb(116,128,128)', // old colour #677b6e
+                'clc-pea': 'rgb(212,212,210)',
                 'clc-gray': 'rgb(50, 50, 50)',
                 'clc-silver': '#c0c0c0',
                 'clc-navy': 'rgba(48, 55, 98, 1)',
