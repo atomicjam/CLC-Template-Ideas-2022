@@ -1129,200 +1129,9 @@
 <h2 class="text-xl uppercase p-4">Accordions</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
-    <div class="m-4 p-16 bg-white">
         
-        <div class="my-4">
-        
-            <div x-data="{open:false}">
-                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
-                    <p class="pr-4 my-4 text-clc-green text-3xl uppercase">Virtual Visits</p>
-                    <button x-html="open ? '-' :'+' "
-                        class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
-                </div>
-                <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
-                        molestias!</p>
-                </div>
-                <hr class="h-[1px] bg-clc-gray">
-            </div>
-        
-            <div x-data="{open:false}">
-                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
-                    <p class="pr-4 my-4 text-clc-green text-3xl uppercase">Register</p>
-                    <button x-html="open ? '-' :'+' "
-                        class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
-                </div>
-                <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
-                        molestias!
-                    </p>
-                </div>
-                <hr class="h-[1px] bg-clc-gray">
-            </div>
-        
-            <div x-data="{open:false}">
-                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
-                    <p class="pr-4 my-4 text-clc-green text-3xl uppercase">Visit Us</p>
-                    <button x-html="open ? '-' :'+' "
-                        class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
-                </div>
-                <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
-                        molestias!
-                    </p>
-                </div>
-                <hr class="h-[1px] bg-clc-gray">
-            </div>
-        
-            <div x-data="{open:false}">
-                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
-                    <p class="pr-4 my-4 text-clc-green text-3xl uppercase">Offers</p>
-                    <button x-html="open ? '-' :'+' "
-                        class="px-2 text-clc-silver hover:text-gray-500 font-thin text-2xl font-serif"></button>
-                </div>
-                <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
-                        molestias!
-                    </p>
-                </div>
-                <hr class="h-[1px] bg-clc-gray">
-            </div>
-        
-        </div>
-        
-    </div>
-
-    <h3 class="text-md px-4 text-right">Primary section background colour</h3>
-    <div class="m-4 p-16 bg-clc-green">
-        
-        <div class="my-4">
-        
-            <div x-data="{open:false}">
-                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
-                    <p class="pr-4 my-4 text-white text-3xl uppercase">Virtual Visits</p>
-                    <button x-html="open ? '-' :'+'"
-                        class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
-                </div>
-                <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
-                        molestias!</p>
-                </div>
-                <hr class="h-[1px] bg-clc-gray">
-            </div>
-        
-            <div x-data="{open:false}">
-                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
-                    <p class="pr-4 my-4 text-white text-3xl uppercase">Register</p>
-                    <button x-html="open ? '-' :'+' "
-                        class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
-                </div>
-                <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
-                        molestias!
-                    </p>
-                </div>
-                <hr class="h-[1px] bg-clc-gray">
-            </div>
-        
-            <div x-data="{open:false}">
-                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
-                    <p class="pr-4 my-4 text-white text-3xl uppercase">Visit Us</p>
-                    <button x-html="open ? '-' :'+' "
-                        class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
-                </div>
-                <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
-                        molestias!
-                    </p>
-                </div>
-                <hr class="h-[1px] bg-clc-gray">
-            </div>
-        
-            <div x-data="{open:false}">
-                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
-                    <p class="pr-4 my-4 text-white text-3xl uppercase">Offers</p>
-                    <button x-html="open ? '-' :'+' "
-                        class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
-                </div>
-                <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
-                        molestias!
-                    </p>
-                </div>
-                <hr class="h-[1px] bg-clc-gray">
-            </div>
-        
-        </div>
-        
-    </div>
-
-    <h3 class="text-md px-4 text-right">Tertiary section background colour</h3>
-    <div class="m-4 p-16 bg-clc-gray">
-        
-        <div class="my-4">
-        
-            <div x-data="{open:false}">
-                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
-                    <p class="pr-4 my-4 text-clc-silver text-3xl uppercase">Virtual Visits</p>
-                    <button x-html="open ? '-' :'+'"
-                        class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
-                </div>
-                <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
-                        molestias!</p>
-                </div>
-                <hr class="h-[1px] bg-clc-gray">
-            </div>
-        
-            <div x-data="{open:false}">
-                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
-                    <p class="pr-4 my-4 text-clc-silver text-3xl uppercase">Register</p>
-                    <button x-html="open ? '-' :'+' "
-                        class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
-                </div>
-                <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
-                        molestias!
-                    </p>
-                </div>
-                <hr class="h-[1px] bg-clc-gray">
-            </div>
-        
-            <div x-data="{open:false}">
-                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
-                    <p class="pr-4 my-4 text-clc-silver text-3xl uppercase">Visit Us</p>
-                    <button x-html="open ? '-' :'+' "
-                        class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
-                </div>
-                <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
-                        molestias!
-                    </p>
-                </div>
-                <hr class="h-[1px] bg-clc-gray">
-            </div>
-        
-            <div x-data="{open:false}">
-                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
-                    <p class="pr-4 my-4 text-clc-silver text-3xl uppercase">Offers</p>
-                    <button x-html="open ? '-' :'+' "
-                        class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
-                </div>
-                <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
-                        molestias!
-                    </p>
-                </div>
-                <hr class="h-[1px] bg-clc-gray">
-            </div>
-        
-        </div>
-        
-    </div>
-
-    <h3 class="text-md px-4 text-right">Quaternary section background colour</h3>
-    <div class="m-4 p-16 bg-clc-pea">
-        
+    <div class="m-4 p-16 bg-white flex place-content-center">
+    <div class="max-w-4xl w-full">
         <div class="my-4">
         
             <div x-data="{open:false}">
@@ -1382,6 +1191,199 @@
         
         </div>
     
+    </div>
+    </div>
+
+    <h3 class="text-md px-4 text-right">Primary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-green flex place-content-center">
+    <div class="max-w-4xl w-full">
+        <div class="my-4">
+        
+            <div x-data="{open:false}">
+                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                    <p class="pr-4 my-4 text-white text-3xl uppercase">Virtual Visits</p>
+                    <button x-html="open ? '-' :'+'"
+                        class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
+                </div>
+                <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                        molestias!</p>
+                </div>
+                <hr class="h-[1px] bg-clc-gray">
+            </div>
+        
+            <div x-data="{open:false}">
+                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                    <p class="pr-4 my-4 text-white text-3xl uppercase">Register</p>
+                    <button x-html="open ? '-' :'+' "
+                        class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
+                </div>
+                <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                        molestias!
+                    </p>
+                </div>
+                <hr class="h-[1px] bg-clc-gray">
+            </div>
+        
+            <div x-data="{open:false}">
+                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                    <p class="pr-4 my-4 text-white text-3xl uppercase">Visit Us</p>
+                    <button x-html="open ? '-' :'+' "
+                        class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
+                </div>
+                <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                        molestias!
+                    </p>
+                </div>
+                <hr class="h-[1px] bg-clc-gray">
+            </div>
+        
+            <div x-data="{open:false}">
+                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                    <p class="pr-4 my-4 text-white text-3xl uppercase">Offers</p>
+                    <button x-html="open ? '-' :'+' "
+                        class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
+                </div>
+                <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                        molestias!
+                    </p>
+                </div>
+                <hr class="h-[1px] bg-clc-gray">
+            </div>
+        
+        </div>
+    </div>   
+    </div>
+
+    <h3 class="text-md px-4 text-right">Tertiary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-gray flex place-content-center">
+    <div class="max-w-4xl w-full">
+        <div class="my-4">
+        
+            <div x-data="{open:false}">
+                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                    <p class="pr-4 my-4 text-clc-silver text-3xl uppercase">Virtual Visits</p>
+                    <button x-html="open ? '-' :'+'"
+                        class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
+                </div>
+                <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                        molestias!</p>
+                </div>
+                <hr class="h-[1px] bg-clc-gray">
+            </div>
+        
+            <div x-data="{open:false}">
+                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                    <p class="pr-4 my-4 text-clc-silver text-3xl uppercase">Register</p>
+                    <button x-html="open ? '-' :'+' "
+                        class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
+                </div>
+                <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                        molestias!
+                    </p>
+                </div>
+                <hr class="h-[1px] bg-clc-gray">
+            </div>
+        
+            <div x-data="{open:false}">
+                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                    <p class="pr-4 my-4 text-clc-silver text-3xl uppercase">Visit Us</p>
+                    <button x-html="open ? '-' :'+' "
+                        class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
+                </div>
+                <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                        molestias!
+                    </p>
+                </div>
+                <hr class="h-[1px] bg-clc-gray">
+            </div>
+        
+            <div x-data="{open:false}">
+                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                    <p class="pr-4 my-4 text-clc-silver text-3xl uppercase">Offers</p>
+                    <button x-html="open ? '-' :'+' "
+                        class="px-2 text-white hover:text-white font-thin text-2xl font-serif"></button>
+                </div>
+                <div x-show="open" x-cloak class="mr-4 py-4 prose text-white" x-transition>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                        molestias!
+                    </p>
+                </div>
+                <hr class="h-[1px] bg-clc-gray">
+            </div>
+        
+        </div>
+    </div>   
+    </div>
+
+    <h3 class="text-md px-4 text-right">Quaternary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-pea flex place-content-center">
+    <div class="max-w-4xl w-full">
+        <div class="my-4">
+        
+            <div x-data="{open:false}">
+                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                    <p class="pr-4 my-4 text-clc-green text-3xl uppercase">Virtual Visits</p>
+                    <button x-html="open ? '-' :'+' "
+                        class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
+                </div>
+                <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                        molestias!</p>
+                </div>
+                <hr class="h-[1px] bg-clc-gray">
+            </div>
+        
+            <div x-data="{open:false}">
+                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                    <p class="pr-4 my-4 text-clc-green text-3xl uppercase">Register</p>
+                    <button x-html="open ? '-' :'+' "
+                        class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
+                </div>
+                <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                        molestias!
+                    </p>
+                </div>
+                <hr class="h-[1px] bg-clc-gray">
+            </div>
+        
+            <div x-data="{open:false}">
+                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                    <p class="pr-4 my-4 text-clc-green text-3xl uppercase">Visit Us</p>
+                    <button x-html="open ? '-' :'+' "
+                        class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
+                </div>
+                <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                        molestias!
+                    </p>
+                </div>
+                <hr class="h-[1px] bg-clc-gray">
+            </div>
+        
+            <div x-data="{open:false}">
+                <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                    <p class="pr-4 my-4 text-clc-green text-3xl uppercase">Offers</p>
+                    <button x-html="open ? '-' :'+' "
+                        class="px-2 text-clc-silver hover:text-gray-500 font-thin text-2xl font-serif"></button>
+                </div>
+                <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                        molestias!
+                    </p>
+                </div>
+                <hr class="h-[1px] bg-clc-gray">
+            </div>
+        
+        </div>
+    </div>
     </div>
 </section>
 
