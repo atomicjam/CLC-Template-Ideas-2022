@@ -1219,6 +1219,22 @@ select {
   bottom: 0.25rem;
 }
 
+.right-5 {
+  right: 1.25rem;
+}
+
+.right-12 {
+  right: 3rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -1265,6 +1281,10 @@ select {
 
 .m-2 {
   margin: 0.5rem;
+}
+
+.m-1 {
+  margin: 0.25rem;
 }
 
 .my-0 {
