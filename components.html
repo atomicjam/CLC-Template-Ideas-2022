@@ -10,7 +10,9 @@
 
 <body id="top" class="smooth-scroll m-0 bg-gray-100">
 
-<h2 class="text-xl uppercase p-4">Menu</h2>
+<a href="#table" class="fixed top-1 right-1 bg-black text-white px-4 py-2 z-50">JUMP</a>
+
+<h2 class="text-xl uppercase p-4" id="menu">Menu</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
     <div class="m-4 p-16 bg-white">
@@ -29,7 +31,7 @@
     </div>
 </section>
 
-<h2 class="text-xl uppercase p-4">Hero</h2>
+<h2 class="text-xl uppercase p-4" id="hero">Hero</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
     <div class="m-4 p-16 bg-white">
@@ -48,7 +50,26 @@
     </div>
 </section>
 
-<h2 class="text-xl uppercase p-4">No Hero</h2>
+<h2 class="text-xl uppercase p-4" id="nohero">No Hero</h2>
+<section>
+    <h3 class="text-md px-4 text-right">White section background colour</h3>
+    <div class="m-4 p-16 bg-white">
+    </div>
+
+    <h3 class="text-md px-4 text-right">Primary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-green">
+    </div>
+
+    <h3 class="text-md px-4 text-right">Tertiary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-gray">
+    </div>
+
+    <h3 class="text-md px-4 text-right">Quaternary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-pea">
+    </div>
+</section>
+
+<h2 class="text-xl uppercase p-4" id="textimage">Text with image</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
     <div class="m-4 p-16 bg-white">
@@ -68,7 +89,7 @@
 </section>
 
 <!--done-->
-<h2 class="text-xl uppercase p-4">Block Quote Block</h2>
+<h2 class="text-xl uppercase p-4" id="blockquote">Block Quote Block</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
     <div class="m-4 bg-white">
@@ -99,7 +120,7 @@
     </div>
 </section>
 
-<h2 class="text-xl uppercase p-4">Gradient Image with Action Buttons</h2>
+<h2 class="text-xl uppercase p-4" id="imagebuttons">Gradient Image with Action Buttons</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
     <div class="m-4 p-0 bg-white">
@@ -214,7 +235,7 @@
 </section>
 
 <!--done-->
-<h2 class="text-xl uppercase p-4">Video Gradients</h2>
+<h2 class="text-xl uppercase p-4" id="video">Video Gradients</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
     <div class="m-4 bg-white">
@@ -272,7 +293,7 @@
     </div>
 </section>
 
-<h2 class="text-xl uppercase p-4">Side By Side</h2>
+<h2 class="text-xl uppercase p-4" id="sidebyside">Side By Side</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
     <div class="m-4 p-0 bg-white">
@@ -332,7 +353,7 @@
 </section>
 
 <!--done-->
-<h2 class="text-xl uppercase p-4">Smaller Quote with Action Buttons</h2>
+<h2 class="text-xl uppercase p-4" id="smallquote">Smaller Quote with Action Buttons</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
     <div class="m-4 p-16 bg-white flex place-content-center">
@@ -399,7 +420,7 @@
     </div>
 </section>
 
-<h2 class="text-xl uppercase p-4">Larger Quote with Video Popout</h2>
+<h2 class="text-xl uppercase p-4" id="videopopout">Larger Quote with Video Popout</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
     <div class="m-4 p-16 bg-white">
@@ -462,7 +483,7 @@
     </div>
 </section>
 
-<h2 class="text-xl uppercase p-4">Hear From Carrousel</h2>
+<h2 class="text-xl uppercase p-4" id="hear">Hear From Carrousel</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
     <div class="m-4 p-16 bg-white">
@@ -669,7 +690,7 @@
     </div>
 </section>
 
-<h2 class="text-xl uppercase p-4">News Carrousel</h2>
+<h2 class="text-xl uppercase p-4" id="news">News Carrousel</h2>
 <section>
     <h3 class="text-md px-4 text-right">All section background colour</h3>
     <div class="m-4 p-0 bg-white">
@@ -717,10 +738,12 @@
 
 </section>
 
-<h2 class="text-xl uppercase p-4">Image Carrousel</h2>
+<!--done-->
+<h2 class="text-xl uppercase p-4" id="image">Image Carrousel</h2>
 <section>
     <h3 class="text-md px-4 text-right">All background colours</h3>
-    <div class="m-4 bg-white">
+    <div class="m-4 bg-white flex place-content-center">
+        <div class="max-w-4xl w-full">
         <div class="relative">
             <div class="absolute top-1/2 left-0 text-white ml-8 -mt-6">
                 <a href="#pic1-A">
@@ -746,12 +769,13 @@
                 <img src="/assets/pic5.jpg" class="snap-center" id="pic5-A">
             </div>
         </div>
+        </div>
     </div>
 
 </section>
 
 <!--done-->
-<h2 class="text-xl uppercase p-4">Stats Pullout</h2>
+<h2 class="text-xl uppercase p-4" id="stats">Stats Pullout</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
 
@@ -849,7 +873,7 @@
 </section>
 
 <!--done-->
-<h2 class="text-xl uppercase p-4">Typography Block</h2>
+<h2 class="text-xl uppercase p-4" id="type">Typography Block</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
     <div class="m-4 p-16 bg-white flex place-content-center">
@@ -970,7 +994,7 @@
 </section>
 
 <!--done-->
-<h2 class="text-xl uppercase p-4">Tables</h2>
+<h2 class="text-xl uppercase p-4" id="table">Tables</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
     <div class="m-4 p-16 bg-white flex place-content-center">
@@ -1105,53 +1129,8 @@
     </div>
 </section>
 
-<h2 class="text-xl uppercase p-4">Forms</h2>
-<section>
-    <h3 class="text-md px-4 text-right">White section background colour</h3>
-    <div class="m-4 p-16 bg-white">
-
-        <form>
-            <label>Label</label>
-            <input type="text" />
-            <button type="submit">Submit</button>
-        </form>
-
-    </div>
-
-    <h3 class="text-md px-4 text-right">Primary section background colour</h3>
-    <div class="m-4 p-16 bg-clc-green">
-    </div>
-
-    <h3 class="text-md px-4 text-right">Tertiary section background colour</h3>
-    <div class="m-4 p-16 bg-clc-gray">
-    </div>
-
-    <h3 class="text-md px-4 text-right">Quaternary section background colour</h3>
-    <div class="m-4 p-16 bg-clc-pea">
-    </div>
-</section>
-
-<h2 class="text-xl uppercase p-4">Search</h2>
-<section>
-    <h3 class="text-md px-4 text-right">White section background colour</h3>
-    <div class="m-4 p-16 bg-white">
-    </div>
-
-    <h3 class="text-md px-4 text-right">Primary section background colour</h3>
-    <div class="m-4 p-16 bg-clc-green">
-    </div>
-
-    <h3 class="text-md px-4 text-right">Tertiary section background colour</h3>
-    <div class="m-4 p-16 bg-clc-gray">
-    </div>
-
-    <h3 class="text-md px-4 text-right">Quaternary section background colour</h3>
-    <div class="m-4 p-16 bg-clc-pea">
-    </div>
-</section>
-
 <!--done-->
-<h2 class="text-xl uppercase p-4">Highlight List</h2>
+<h2 class="text-xl uppercase p-4" id="list">Highlight List</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
     <div class="m-4 p-16 bg-white flex place-content-center">
@@ -1218,7 +1197,7 @@
 </section>
 
 <!--done-->
-<h2 class="text-xl uppercase p-4">Accordions</h2>
+<h2 class="text-xl uppercase p-4" id="accordian">Accordions</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
         
@@ -1479,7 +1458,390 @@
     </div>
 </section>
 
-<h2 class="text-xl uppercase p-4">Gallery</h2>
+<!--done-->
+<h2 class="text-xl uppercase p-4" id="gallery">Inline Gallery</h2>
+<section>
+    <h3 class="text-md px-4 text-right">White section background colour</h3>
+    <div class="m-4 pl-16 pt-16 pb-16 bg-white flex place-content-end">
+        <div class="max-w-5xl xl:max-w-8xl w-full">
+
+        <div class="flex flex-row flex-nowrap overflow-x-auto space-x-4 scroll-smooth">
+            <picture class="flex-none w-2/3">
+                <source srcset="/assets/pic1.jpg" media="(orientation: portrait)">
+                <img src="/assets/pic1.jpg" alt="">
+            </picture>
+            <picture class="flex-none w-2/3">
+                <source srcset="/assets/pic2.jpg" media="(orientation: portrait)">
+                <img src="/assets/pic2.jpg" alt="">
+            </picture>
+            <picture class="flex-none w-2/3">
+                <source srcset="/assets/pic3.jpg" media="(orientation: portrait)">
+                <img src="/assets/pic3.jpg" alt="">
+            </picture>
+            <picture class="flex-none w-2/3">
+                <source srcset="/assets/pic4.jpg" media="(orientation: portrait)">
+                <img src="/assets/pic4.jpg" alt="">
+            </picture>
+            <picture class="flex-none w-2/3">
+                <source srcset="/assets/pic5.jpg" media="(orientation: portrait)">
+                <img src="/assets/pic5.jpg" alt="">
+            </picture>
+            <picture class="flex-none w-2/3">
+                <source srcset="/assets/pic6.jpg" media="(orientation: portrait)">
+                <img src="/assets/pic6.jpg" alt="">
+            </picture>
+            <picture class="flex-none w-2/3">
+                <source srcset="/assets/pic7.jpg" media="(orientation: portrait)">
+                <img src="/assets/pic7.jpg" alt="">
+            </picture>
+            <picture class="flex-none w-2/3">
+                <source srcset="/assets/pic8.jpg" media="(orientation: portrait)">
+                <img src="/assets/pic8.jpg" alt="">
+            </picture>
+            <picture class="flex-none w-2/3">
+                <source srcset="/assets/pic9.jpg" media="(orientation: portrait)">
+                <img src="/assets/pic9.jpg" alt="">
+            </picture>
+        </div>
+
+        </div>
+    </div>
+
+    <h3 class="text-md px-4 text-right">Primary section background colour</h3>
+    <div class="m-4 pl-16 pt-16 pb-16 bg-clc-green flex place-content-end">
+        <div class="max-w-5xl xl:max-w-8xl w-full">
+    
+            <div class="flex flex-row flex-nowrap overflow-x-auto space-x-4 scroll-smooth">
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic1.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic1.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic2.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic2.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic3.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic3.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic4.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic4.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic5.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic5.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic6.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic6.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic7.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic7.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic8.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic8.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic9.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic9.jpg" alt="">
+                </picture>
+            </div>
+    
+        </div>
+    </div>
+
+    <h3 class="text-md px-4 text-right">Tertiary section background colour</h3>
+    <div class="m-4 pl-16 pt-16 pb-16 bg-clc-gray flex place-content-end">
+        <div class="max-w-5xl xl:max-w-8xl w-full">
+    
+            <div class="flex flex-row flex-nowrap overflow-x-auto space-x-4 scroll-smooth">
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic1.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic1.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic2.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic2.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic3.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic3.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic4.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic4.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic5.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic5.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic6.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic6.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic7.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic7.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic8.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic8.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic9.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic9.jpg" alt="">
+                </picture>
+            </div>
+    
+        </div>
+    </div>
+
+    <h3 class="text-md px-4 text-right">Quaternary section background colour</h3>
+    <div class="m-4 pl-16 pt-16 pb-16 bg-clc-pea flex place-content-end">
+        <div class="max-w-5xl xl:max-w-8xl w-full">
+    
+            <div class="flex flex-row flex-nowrap overflow-x-auto space-x-4 scroll-smooth">
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic1.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic1.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic2.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic2.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic3.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic3.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic4.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic4.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic5.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic5.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic6.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic6.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic7.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic7.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic8.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic8.jpg" alt="">
+                </picture>
+                <picture class="flex-none w-2/3">
+                    <source srcset="/assets/pic9.jpg" media="(orientation: portrait)">
+                    <img src="/assets/pic9.jpg" alt="">
+                </picture>
+            </div>
+    
+        </div>
+    </div>
+</section>
+
+<h2 class="text-xl uppercase p-4" id="staff">Staff List</h2>
+<section>
+    <h3 class="text-md px-4 text-right">White section background colour</h3>
+    <div class="m-4 p-16 bg-white flex place-content-center">
+        <div class="max-w-4xl w-full">
+            <div class="grid grid-cols-1 place-items-center gap-6 md:grid-cols-2 md:place-items-start">
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <h3 class="text-md px-4 text-right">Primary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-green flex place-content-center">
+        <div class="max-w-4xl w-full">
+            <div class="text-white grid grid-cols-1 place-items-center gap-6 md:grid-cols-2 md:place-items-start">
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="text-md px-4 text-right">Tertiary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-gray flex place-content-center">
+        <div class="max-w-4xl w-full">
+            <div class="text-white grid grid-cols-1 place-items-center gap-6 md:grid-cols-2 md:place-items-start">
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="text-md px-4 text-right">Quaternary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-pea flex place-content-center">
+        <div class="max-w-4xl w-full">
+            <div class="text-clc-gray grid grid-cols-1 place-items-center gap-6 md:grid-cols-2 md:place-items-start">
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+                <div class="flex place-items-center">
+                    <img src="/assets/eve.jpg" class="h-24 aspect-square object-fit rounded-full float-left mr-8">
+                    <div>
+                        <p class="antialiased text-lg font-bold xl:text-xl 2xl:text-2xl">Mrs Eve Jardine-Young</p>
+                        <p class="antialiased text-lg xl:text-xl 2xl:text-2xl">Principal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<h2 class="text-xl uppercase p-4" id="highlightnews">Highlighted News</h2>
+<section>
+    <h3 class="text-md px-4 text-right">White section background colour</h3>
+    <div class="m-4 p-16 bg-white">
+    </div>
+
+    <h3 class="text-md px-4 text-right">Primary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-green">
+    </div>
+
+    <h3 class="text-md px-4 text-right">Tertiary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-gray">
+    </div>
+
+    <h3 class="text-md px-4 text-right">Quaternary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-pea">
+    </div>
+</section>
+
+<h2 class="text-xl uppercase p-4" id="flockler">Flockler</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
     <div class="m-4 p-16 bg-white">
@@ -1499,7 +1861,228 @@
 </section>
 
 <!--done-->
-<h2 class="text-xl uppercase p-4">Where Next</h2>
+<h2 class="text-xl uppercase p-4" id="map">Map</h2>
+<section>
+    <h3 class="text-md px-4 text-right">White section background colour</h3>
+    <div class="m-4 p-16 bg-white flex place-content-center">
+        <div class="max-w-4xl w-full">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4923.972850380585!2d-2.081326580345642!3d51.89771183502184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1669908136951!5m2!1sen!2suk"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                class="border-0 w-full aspect-square lg:aspect-video"></iframe>
+            <div class="my-4">
+        
+                <div x-data="{open:false}">
+                    <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                        <p class="pr-4 my-4 text-clc-green text-3xl uppercase">Travel By Car</p>
+                        <button x-html="open ? '-' :'+' "
+                            class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
+                    </div>
+                    <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                            molestias!</p>
+                    </div>
+                    <hr class="h-[1px] bg-clc-gray">
+                </div>
+        
+                <div x-data="{open:false}">
+                    <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                        <p class="pr-4 my-4 text-clc-green text-3xl uppercase">Travel By Rail</p>
+                        <button x-html="open ? '-' :'+' "
+                            class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
+                    </div>
+                    <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                            molestias!
+                        </p>
+                    </div>
+                    <hr class="h-[1px] bg-clc-gray">
+                </div>
+        
+                <div x-data="{open:false}">
+                    <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                        <p class="pr-4 my-4 text-clc-green text-3xl uppercase">Sports Facilities</p>
+                        <button x-html="open ? '-' :'+' "
+                            class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
+                    </div>
+                    <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                            molestias!
+                        </p>
+                    </div>
+                    <hr class="h-[1px] bg-clc-gray">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="text-md px-4 text-right">Primary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-green flex place-content-center">
+
+        <div class="max-w-4xl w-full">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4923.972850380585!2d-2.081326580345642!3d51.89771183502184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1669908136951!5m2!1sen!2suk"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                class="border-0 w-full aspect-square lg:aspect-video"></iframe>
+            <div class="my-4">
+        
+                <div x-data="{open:false}">
+                    <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                        <p class="pr-4 my-4 text-white text-3xl uppercase">Travel By Car</p>
+                        <button x-html="open ? '-' :'+' "
+                            class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
+                    </div>
+                    <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                            molestias!</p>
+                    </div>
+                    <hr class="h-[1px] bg-clc-gray">
+                </div>
+        
+                <div x-data="{open:false}">
+                    <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                        <p class="pr-4 my-4 text-white text-3xl uppercase">Travel By Rail</p>
+                        <button x-html="open ? '-' :'+' "
+                            class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
+                    </div>
+                    <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                            molestias!
+                        </p>
+                    </div>
+                    <hr class="h-[1px] bg-clc-gray">
+                </div>
+        
+                <div x-data="{open:false}">
+                    <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                        <p class="pr-4 my-4 text-white text-3xl uppercase">Sports Facilities</p>
+                        <button x-html="open ? '-' :'+' "
+                            class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
+                    </div>
+                    <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                            molestias!
+                        </p>
+                    </div>
+                    <hr class="h-[1px] bg-clc-gray">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h3 class="text-md px-4 text-right">Tertiary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-gray flex place-content-center">
+
+        <div class="max-w-4xl w-full">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4923.972850380585!2d-2.081326580345642!3d51.89771183502184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1669908136951!5m2!1sen!2suk"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                class="border-0 w-full aspect-square lg:aspect-video"></iframe>
+            <div class="my-4">
+        
+                <div x-data="{open:false}">
+                    <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                        <p class="pr-4 my-4 text-white text-3xl uppercase">Travel By Car</p>
+                        <button x-html="open ? '-' :'+' "
+                            class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
+                    </div>
+                    <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                            molestias!</p>
+                    </div>
+                    <hr class="h-[1px] bg-clc-gray">
+                </div>
+        
+                <div x-data="{open:false}">
+                    <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                        <p class="pr-4 my-4 text-white text-3xl uppercase">Travel By Rail</p>
+                        <button x-html="open ? '-' :'+' "
+                            class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
+                    </div>
+                    <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                            molestias!
+                        </p>
+                    </div>
+                    <hr class="h-[1px] bg-clc-gray">
+                </div>
+        
+                <div x-data="{open:false}">
+                    <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                        <p class="pr-4 my-4 text-white text-3xl uppercase">Sports Facilities</p>
+                        <button x-html="open ? '-' :'+' "
+                            class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
+                    </div>
+                    <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                            molestias!
+                        </p>
+                    </div>
+                    <hr class="h-[1px] bg-clc-gray">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h3 class="text-md px-4 text-right">Quaternary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-pea flex place-content-center">
+        <div class="max-w-4xl w-full">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4923.972850380585!2d-2.081326580345642!3d51.89771183502184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1669908136951!5m2!1sen!2suk"
+                allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                class="border-0 w-full aspect-square lg:aspect-video"></iframe>
+            <div class="my-4">
+            
+                <div x-data="{open:false}">
+                    <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                        <p class="pr-4 my-4 text-clc-gray text-3xl uppercase">Travel By Car</p>
+                        <button x-html="open ? '-' :'+' "
+                            class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
+                    </div>
+                    <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                            molestias!</p>
+                    </div>
+                    <hr class="h-[1px] bg-clc-gray">
+                </div>
+            
+                <div x-data="{open:false}">
+                    <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                        <p class="pr-4 my-4 text-clc-gray text-3xl uppercase">Travel By Rail</p>
+                        <button x-html="open ? '-' :'+' "
+                            class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
+                    </div>
+                    <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                            molestias!
+                        </p>
+                    </div>
+                    <hr class="h-[1px] bg-clc-gray">
+                </div>
+            
+                <div x-data="{open:false}">
+                    <div class="flex justify-between items-center cursor-pointer" @click="open=!open">
+                        <p class="pr-4 my-4 text-clc-gray text-3xl uppercase">Sports Facilities</p>
+                        <button x-html="open ? '-' :'+' "
+                            class="px-2 text-clc-silver hover:text-clc-green font-thin text-2xl font-serif"></button>
+                    </div>
+                    <div x-show="open" x-cloak class="mr-4 py-4 prose" x-transition>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta repudiandae ut dolores totam nobis
+                            molestias!
+                        </p>
+                    </div>
+                    <hr class="h-[1px] bg-clc-gray">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--done-->
+<h2 class="text-xl uppercase p-4" id="next">Where Next</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
     <div class="m-4 p-0 bg-white">
@@ -1554,8 +2137,506 @@
     </div>
 </section>
 
+<h2 class="text-xl uppercase p-4" id="nohero">Popout Notice</h2>
+<section>
+    <h3 class="text-md px-4 text-right">White section background colour</h3>
+    <div class="m-4 p-16 bg-white">
+    </div>
+
+    <h3 class="text-md px-4 text-right">Primary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-green">
+    </div>
+
+    <h3 class="text-md px-4 text-right">Tertiary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-gray">
+    </div>
+
+    <h3 class="text-md px-4 text-right">Quaternary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-pea">
+    </div>
+</section>
+
 <!--done-->
-<h2 class="text-xl uppercase p-4">Call to Action</h2>
+<h2 class="text-xl uppercase p-4" id="forms">Forms</h2>
+<section>
+    <h3 class="text-md px-4 text-right">White section background colour</h3>
+    <div class="m-4 p-16 bg-white flex place-content-center">
+        <div class="prose max-w-4xl w-full antialiased">
+            <form action="" method="post">
+                <fieldset class="grid grid-cols-1 gap-2">
+                    <legend class="text-clc-gray antialiased text-right text-sm">Form Legend</legend>
+
+                    <label for="required" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Required Text:<span
+                            class="text-red-500">*</span></label>
+                    <input type="text" name="required" id="required" required
+                        class="mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1">
+                    <label for="text" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Text:</label>
+                    <input type="text" name="text" id="text"
+                        class="mb-2 lg:mb-4 2xl:mb-6 placeholder:italic placeholder:text-clc-silver placeholder:text-sm focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1"
+                        placeholder="placeholder text">
+                    <label for="textarea" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Text Area:</label>
+                    <textarea id="textarea" name="textarea"
+                        class="mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1"></textarea>
+                    <label for="dropdown" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Drop Down:</label>
+                    <select id="dropdown"
+                        class="mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1">
+                        <option value="">-- Please choose an option --</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="hamster">Hamster</option>
+                        <option value="parrot">Parrot</option>
+                        <option value="spider">Spider</option>
+                        <option value="goldfish">Goldfish</option>
+                    </select>
+                    <label for="optiongroup" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Option
+                        Group:</label>
+                    <select id="optiongroup"
+                        class="mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1">
+                        <optgroup label="Theropods">
+                            <option>Tyrannosaurus</option>
+                            <option>Velociraptor</option>
+                            <option>Deinonychus</option>
+                        </optgroup>
+                        <optgroup label="Sauropods">
+                            <option>Diplodocus</option>
+                            <option>Saltasaurus</option>
+                            <option>Apatosaurus</option>
+                        </optgroup>
+                    </select>
+                    <label for="radial" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Radial
+                        Buttons:</label>
+                    <div class="mb-2 lg:mb-4 2xl:mb-6">
+                        <div>
+                            <input type="radio" id="huey" name="drone" value="huey" checked
+                                class="focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1 checked:bg-clc-green">
+                            <label for="huey" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Huey</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="dewey" name="drone" value="dewey"
+                                class="focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1 checked:bg-clc-green indeterminate:bg-clc-gray">
+                            <label for="dewey" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Dewey</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="louie" name="drone" value="louie"
+                                class="focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1 checked:bg-clc-green indeterminate:bg-clc-gray">
+                            <label for="louie" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Louie</label>
+                        </div>
+                    </div>
+                    <label for="checkboxes"
+                        class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Checkboxes:</label>
+                    <div class="mb-2 lg:mb-4 2xl:mb-6">
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" checked
+                                class="focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1 checked:bg-clc-green target:bg-clc-gray">
+                            <label for="scales"
+                                class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Scales</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="horns" name="horns"
+                                class="focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1 checked:bg-clc-green indeterminate:bg-clc-gray">
+                            <label for="horns" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Horns</label>
+                        </div>
+                    </div>
+                    <label for="date" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Date Picker:</label>
+                    <input type="date" id="date" name="date" value="2018-07-22" min="2018-01-01" max="2018-12-31"
+                        class="mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1">
+                    <label for="file" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">File Picker:</label>
+                    <input type="file" id="file" name="file" accept="image/png, image/jpeg" class="text-sm text-neutral-500 mt-0 mb-2 lg:mb-4 2xl:mb-6
+        file:mr-4 file:py-2 file:px-4 file:border-0
+        file:text-sm file:mt-[2px] file:bg-clc-green file:text-neutral-100">
+                    <label for="colour" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Colour
+                        Picker:</label>
+                    <div class="mb-2 lg:mb-4 2xl:mb-6">
+                        <div>
+                            <input type="color" id="head" name="head" value="#e66465"
+                                class="focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1">
+                            <label for="head" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Head</label>
+                        </div>
+
+                        <div>
+                            <input type="color" id="body" name="body" value="#f6b73c"
+                                class="focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1">
+                            <label for="body" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Body</label>
+                        </div>
+                    </div>
+                    <label for="email" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Email Field:</label>
+                    <input type="email" id="email" pattern=".+@email\.com" size="30"
+                        class="mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1">
+                    <label for="phone" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Phone Field:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        class="mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1">
+                </fieldset>
+
+                <button type="submit"
+                    class="antialiased block my-4 bg-clc-green text-neutral-100 px-12 py-3">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <h3 class="text-md px-4 text-right">Primary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-green flex place-content-center">
+        <div class="prose max-w-4xl w-full antialiased">
+            <form action="" method="post">
+                <fieldset class="grid grid-cols-1 gap-2">
+                    <legend class="text-white antialiased text-right text-sm">Form Legend</legend>
+
+                    <label for="required" class="text-white antialiased lg:text-lg 2xl:text-2xl">Required Text:<span
+                            class="text-red-500">*</span></label>
+                    <input type="text" name="required" id="required" required
+                        class="bg-clc-green border-white text-white mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1">
+                    <label for="text" class="text-white antialiased lg:text-lg 2xl:text-2xl">Text:</label>
+                    <input type="text" name="text" id="text"
+                        class="bg-clc-green border-white text-white mb-2 lg:mb-4 2xl:mb-6 placeholder:italic placeholder:text-clc-silver placeholder:text-sm focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1"
+                        placeholder="placeholder text">
+                    <label for="textarea" class="text-white antialiased lg:text-lg 2xl:text-2xl">Text Area:</label>
+                    <textarea id="textarea" name="textarea"
+                        class="bg-clc-green border-white text-white mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1"></textarea>
+                    <label for="dropdown" class="text-white antialiased lg:text-lg 2xl:text-2xl">Drop Down:</label>
+                    <select id="dropdown"
+                        class="bg-clc-green border-white text-white mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1">
+                        <option value="">-- Please choose an option --</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="hamster">Hamster</option>
+                        <option value="parrot">Parrot</option>
+                        <option value="spider">Spider</option>
+                        <option value="goldfish">Goldfish</option>
+                    </select>
+                    <label for="optiongroup" class="text-white antialiased lg:text-lg 2xl:text-2xl">Option
+                        Group:</label>
+                    <select id="optiongroup"
+                        class="bg-clc-green border-white text-white mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1">
+                        <optgroup label="Theropods">
+                            <option>Tyrannosaurus</option>
+                            <option>Velociraptor</option>
+                            <option>Deinonychus</option>
+                        </optgroup>
+                        <optgroup label="Sauropods">
+                            <option>Diplodocus</option>
+                            <option>Saltasaurus</option>
+                            <option>Apatosaurus</option>
+                        </optgroup>
+                    </select>
+                    <label for="radial" class="text-white antialiased lg:text-lg 2xl:text-2xl">Radial Buttons:</label>
+                    <div class="mb-2 lg:mb-4 2xl:mb-6">
+                        <div>
+                            <input type="radio" id="huey" name="drone" value="huey" checked
+                                class="focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1 checked:bg-clc-green">
+                            <label for="huey" class="text-white antialiased lg:text-lg 2xl:text-2xl">Huey</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="dewey" name="drone" value="dewey"
+                                class="focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1 checked:bg-clc-green indeterminate:bg-clc-gray">
+                            <label for="dewey" class="text-white antialiased lg:text-lg 2xl:text-2xl">Dewey</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="louie" name="drone" value="louie"
+                                class="focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1 checked:bg-clc-green indeterminate:bg-clc-gray">
+                            <label for="louie" class="text-white antialiased lg:text-lg 2xl:text-2xl">Louie</label>
+                        </div>
+                    </div>
+                    <label for="checkboxes" class="text-white antialiased lg:text-lg 2xl:text-2xl">Checkboxes:</label>
+                    <div class="mb-2 lg:mb-4 2xl:mb-6">
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" checked
+                                class="focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1 checked:bg-clc-green target:bg-clc-gray">
+                            <label for="scales" class="text-white antialiased lg:text-lg 2xl:text-2xl">Scales</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="horns" name="horns"
+                                class="focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1 checked:bg-clc-green indeterminate:bg-clc-gray">
+                            <label for="horns" class="text-white antialiased lg:text-lg 2xl:text-2xl">Horns</label>
+                        </div>
+                    </div>
+                    <label for="date" class="text-white antialiased lg:text-lg 2xl:text-2xl">Date Picker:</label>
+                    <input type="date" id="date" name="date" value="2018-07-22" min="2018-01-01" max="2018-12-31"
+                        class="bg-clc-green border-white text-white mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1">
+                    <label for="file" class="text-white antialiased lg:text-lg 2xl:text-2xl">File Picker:</label>
+                    <input type="file" id="file" name="file" accept="image/png, image/jpeg" class="text-sm text-neutral-500 mt-0 mb-2 lg:mb-4 2xl:mb-6
+                file:mr-4 file:py-2 file:px-4 file:border-0
+                file:text-sm file:mt-[2px] file:bg-clc-green file:text-neutral-100">
+                    <label for="colour" class="text-white antialiased lg:text-lg 2xl:text-2xl">Colour Picker:</label>
+                    <div class="mb-2 lg:mb-4 2xl:mb-6">
+                        <div>
+                            <input type="color" id="head" name="head" value="#e66465"
+                                class="focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1">
+                            <label for="head" class="text-white antialiased lg:text-lg 2xl:text-2xl">Head</label>
+                        </div>
+
+                        <div>
+                            <input type="color" id="body" name="body" value="#f6b73c"
+                                class="focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1">
+                            <label for="body" class="text-white antialiased lg:text-lg 2xl:text-2xl">Body</label>
+                        </div>
+                    </div>
+                    <label for="email" class="text-white antialiased lg:text-lg 2xl:text-2xl">Email Field:</label>
+                    <input type="email" id="email" pattern=".+@email\.com" size="30"
+                        class="bg-clc-green border-white text-white mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1">
+                    <label for="phone" class="text-white antialiased lg:text-lg 2xl:text-2xl">Phone Field:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        class="bg-clc-green border-white text-white mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1">
+                </fieldset>
+
+                <button type="submit"
+                    class="antialiased block my-4 bg-clc-gray text-neutral-100 px-12 py-3">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <h3 class="text-md px-4 text-right">Tertiary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-gray flex place-content-center">
+        <div class="prose max-w-4xl w-full antialiased">
+            <form action="" method="post">
+                <fieldset class="grid grid-cols-1 gap-2">
+                    <legend class="text-white antialiased text-right text-sm">Form Legend</legend>
+
+                    <label for="required" class="text-white antialiased lg:text-lg 2xl:text-2xl">Required Text:<span
+                            class="text-red-500">*</span></label>
+                    <input type="text" name="required" id="required" required
+                        class="bg-clc-gray border-white text-white mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1">
+                    <label for="text" class="text-white antialiased lg:text-lg 2xl:text-2xl">Text:</label>
+                    <input type="text" name="text" id="text"
+                        class="bg-clc-gray border-white text-white mb-2 lg:mb-4 2xl:mb-6 placeholder:italic placeholder:text-clc-silver placeholder:text-sm focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1"
+                        placeholder="placeholder text">
+                    <label for="textarea" class="text-white antialiased lg:text-lg 2xl:text-2xl">Text Area:</label>
+                    <textarea id="textarea" name="textarea"
+                        class="bg-clc-gray border-white text-white mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1"></textarea>
+                    <label for="dropdown" class="text-white antialiased lg:text-lg 2xl:text-2xl">Drop Down:</label>
+                    <select id="dropdown"
+                        class="bg-clc-gray border-white text-white mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1">
+                        <option value="">-- Please choose an option --</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="hamster">Hamster</option>
+                        <option value="parrot">Parrot</option>
+                        <option value="spider">Spider</option>
+                        <option value="goldfish">Goldfish</option>
+                    </select>
+                    <label for="optiongroup" class="text-white antialiased lg:text-lg 2xl:text-2xl">Option
+                        Group:</label>
+                    <select id="optiongroup"
+                        class="bg-clc-gray border-white text-white mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1">
+                        <optgroup label="Theropods">
+                            <option>Tyrannosaurus</option>
+                            <option>Velociraptor</option>
+                            <option>Deinonychus</option>
+                        </optgroup>
+                        <optgroup label="Sauropods">
+                            <option>Diplodocus</option>
+                            <option>Saltasaurus</option>
+                            <option>Apatosaurus</option>
+                        </optgroup>
+                    </select>
+                    <label for="radial" class="text-white antialiased lg:text-lg 2xl:text-2xl">Radial Buttons:</label>
+                    <div class="mb-2 lg:mb-4 2xl:mb-6">
+                        <div>
+                            <input type="radio" id="huey" name="drone" value="huey" checked
+                                class="focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1 checked:bg-clc-green">
+                            <label for="huey" class="text-white antialiased lg:text-lg 2xl:text-2xl">Huey</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="dewey" name="drone" value="dewey"
+                                class="focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1 checked:bg-clc-green indeterminate:bg-clc-gray">
+                            <label for="dewey" class="text-white antialiased lg:text-lg 2xl:text-2xl">Dewey</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="louie" name="drone" value="louie"
+                                class="focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1 checked:bg-clc-green indeterminate:bg-clc-gray">
+                            <label for="louie" class="text-white antialiased lg:text-lg 2xl:text-2xl">Louie</label>
+                        </div>
+                    </div>
+                    <label for="checkboxes" class="text-white antialiased lg:text-lg 2xl:text-2xl">Checkboxes:</label>
+                    <div class="mb-2 lg:mb-4 2xl:mb-6">
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" checked
+                                class="focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1 checked:bg-clc-green target:bg-clc-gray">
+                            <label for="scales" class="text-white antialiased lg:text-lg 2xl:text-2xl">Scales</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="horns" name="horns"
+                                class="focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1 checked:bg-clc-green indeterminate:bg-clc-gray">
+                            <label for="horns" class="text-white antialiased lg:text-lg 2xl:text-2xl">Horns</label>
+                        </div>
+                    </div>
+                    <label for="date" class="text-white antialiased lg:text-lg 2xl:text-2xl">Date Picker:</label>
+                    <input type="date" id="date" name="date" value="2018-07-22" min="2018-01-01" max="2018-12-31"
+                        class="bg-clc-gray border-white text-white mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1">
+                    <label for="file" class="text-white antialiased lg:text-lg 2xl:text-2xl">File Picker:</label>
+                    <input type="file" id="file" name="file" accept="image/png, image/jpeg" class="text-sm text-neutral-500 mt-0 mb-2 lg:mb-4 2xl:mb-6
+                            file:mr-4 file:py-2 file:px-4 file:border-0
+                            file:text-sm file:mt-[2px] file:bg-clc-green file:text-neutral-100">
+                    <label for="colour" class="text-white antialiased lg:text-lg 2xl:text-2xl">Colour Picker:</label>
+                    <div class="mb-2 lg:mb-4 2xl:mb-6">
+                        <div>
+                            <input type="color" id="head" name="head" value="#e66465"
+                                class="focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1">
+                            <label for="head" class="text-white antialiased lg:text-lg 2xl:text-2xl">Head</label>
+                        </div>
+
+                        <div>
+                            <input type="color" id="body" name="body" value="#f6b73c"
+                                class="focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1">
+                            <label for="body" class="text-white antialiased lg:text-lg 2xl:text-2xl">Body</label>
+                        </div>
+                    </div>
+                    <label for="email" class="text-white antialiased lg:text-lg 2xl:text-2xl">Email Field:</label>
+                    <input type="email" id="email" pattern=".+@email\.com" size="30"
+                        class="bg-clc-gray border-white text-white mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1">
+                    <label for="phone" class="text-white antialiased lg:text-lg 2xl:text-2xl">Phone Field:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        class="bg-clc-gray border-white text-white mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-gray focus:ring-clc-green focus:ring-1">
+                </fieldset>
+
+                <button type="submit"
+                    class="antialiased block my-4 bg-clc-green text-neutral-100 px-12 py-3">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <h3 class="text-md px-4 text-right">Quaternary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-pea flex place-content-center">
+        <div class="prose max-w-4xl w-full antialiased">
+            <form action="" method="post">
+                <fieldset class="grid grid-cols-1 gap-2">
+                    <legend class="text-clc-gray antialiased text-right text-sm">Form Legend</legend>
+
+                    <label for="required" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Required Text:<span
+                            class="text-red-500">*</span></label>
+                    <input type="text" name="required" id="required" required
+                        class="bg-clc-pea mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1">
+                    <label for="text" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Text:</label>
+                    <input type="text" name="text" id="text"
+                        class="bg-clc-pea mb-2 lg:mb-4 2xl:mb-6 placeholder:italic placeholder:text-clc-silver placeholder:text-sm focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1"
+                        placeholder="placeholder text">
+                    <label for="textarea" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Text Area:</label>
+                    <textarea id="textarea" name="textarea"
+                        class="bg-clc-pea mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1"></textarea>
+                    <label for="dropdown" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Drop Down:</label>
+                    <select id="dropdown"
+                        class="bg-clc-pea mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1">
+                        <option value="">-- Please choose an option --</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="hamster">Hamster</option>
+                        <option value="parrot">Parrot</option>
+                        <option value="spider">Spider</option>
+                        <option value="goldfish">Goldfish</option>
+                    </select>
+                    <label for="optiongroup" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Option
+                        Group:</label>
+                    <select id="optiongroup"
+                        class="bg-clc-pea mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1">
+                        <optgroup label="Theropods">
+                            <option>Tyrannosaurus</option>
+                            <option>Velociraptor</option>
+                            <option>Deinonychus</option>
+                        </optgroup>
+                        <optgroup label="Sauropods">
+                            <option>Diplodocus</option>
+                            <option>Saltasaurus</option>
+                            <option>Apatosaurus</option>
+                        </optgroup>
+                    </select>
+                    <label for="radial" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Radial
+                        Buttons:</label>
+                    <div class="mb-2 lg:mb-4 2xl:mb-6">
+                        <div>
+                            <input type="radio" id="huey" name="drone" value="huey" checked
+                                class="focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1 checked:bg-clc-green">
+                            <label for="huey" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Huey</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="dewey" name="drone" value="dewey"
+                                class="focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1 checked:bg-clc-green indeterminate:bg-clc-gray">
+                            <label for="dewey" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Dewey</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="louie" name="drone" value="louie"
+                                class="focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1 checked:bg-clc-green indeterminate:bg-clc-gray">
+                            <label for="louie" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Louie</label>
+                        </div>
+                    </div>
+                    <label for="checkboxes"
+                        class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Checkboxes:</label>
+                    <div class="mb-2 lg:mb-4 2xl:mb-6">
+                        <div>
+                            <input type="checkbox" id="scales" name="scales" checked
+                                class="focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1 checked:bg-clc-green target:bg-clc-gray">
+                            <label for="scales"
+                                class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Scales</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="horns" name="horns"
+                                class="focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1 checked:bg-clc-green indeterminate:bg-clc-gray">
+                            <label for="horns" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Horns</label>
+                        </div>
+                    </div>
+                    <label for="date" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Date Picker:</label>
+                    <input type="date" id="date" name="date" value="2018-07-22" min="2018-01-01" max="2018-12-31"
+                        class="bg-clc-pea mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1">
+                    <label for="file" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">File Picker:</label>
+                    <input type="file" id="file" name="file" accept="image/png, image/jpeg" class="text-sm text-neutral-500 mt-0 mb-2 lg:mb-4 2xl:mb-6
+                    file:mr-4 file:py-2 file:px-4 file:border-0
+                    file:text-sm file:mt-[2px] file:bg-clc-green file:text-neutral-100">
+                    <label for="colour" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Colour
+                        Picker:</label>
+                    <div class="mb-2 lg:mb-4 2xl:mb-6">
+                        <div>
+                            <input type="color" id="head" name="head" value="#e66465"
+                                class="focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1">
+                            <label for="head" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Head</label>
+                        </div>
+
+                        <div>
+                            <input type="color" id="body" name="body" value="#f6b73c"
+                                class="focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1">
+                            <label for="body" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Body</label>
+                        </div>
+                    </div>
+                    <label for="email" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Email Field:</label>
+                    <input type="email" id="email" pattern=".+@email\.com" size="30"
+                        class="bg-clc-pea mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1">
+                    <label for="phone" class="text-clc-green antialiased lg:text-lg 2xl:text-2xl">Phone Field:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        class="bg-clc-pea mb-2 lg:mb-4 2xl:mb-6 focus:outline-none focus:border-clc-green focus:ring-clc-green focus:ring-1">
+                </fieldset>
+
+                <button type="submit"
+                    class="antialiased block my-4 bg-clc-green text-neutral-100 px-12 py-3">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<h2 class="text-xl uppercase p-4" id="search">Search</h2>
+<section>
+    <h3 class="text-md px-4 text-right">White section background colour</h3>
+    <div class="m-4 p-16 bg-white">
+    </div>
+
+    <h3 class="text-md px-4 text-right">Primary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-green">
+    </div>
+
+    <h3 class="text-md px-4 text-right">Tertiary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-gray">
+    </div>
+
+    <h3 class="text-md px-4 text-right">Quaternary section background colour</h3>
+    <div class="m-4 p-16 bg-clc-pea">
+    </div>
+</section>
+
+<!--done-->
+<h2 class="text-xl uppercase p-4" id="action">Call to Action</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
     <div class="m-4 p-0 bg-white">
@@ -1591,7 +2672,7 @@
 </section>
 
 <!--done-->
-<h2 class="text-xl uppercase p-4">To Top</h2>
+<h2 class="text-xl uppercase p-4" id="totop">To Top</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
     <div class="m-4 p-16 bg-white">
@@ -1642,7 +2723,7 @@
 </section>
 
 <!--done-->
-<h2 class="text-xl uppercase p-4">Section Dividers</h2>
+<h2 class="text-xl uppercase p-4" id="hr">Section Dividers</h2>
 <section>
     <h3 class="text-md px-4 text-right">White into Primary Brand Colour</h3>
     <div class="m-4">
@@ -1676,7 +2757,7 @@
 </section>
 
 <!--done-->
-<h2 class="text-xl uppercase p-4">Footer</h2>
+<h2 class="text-xl uppercase p-4" id="footer">Footer</h2>
 <section>
     <div class="m-4 bg-clc-gray flex flex-col items-center">
         <div class="flex flex-col items-center max-w-2xl">

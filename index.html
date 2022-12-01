@@ -11,7 +11,7 @@
 <body id="top" class="smooth-scroll m-0 bg-clc-gray">
     <section class="relative" x-data="{width: 'w-[640px] min-w-[640px]'}">
     <div class="sticky top-0 bg-clc-gray w-full my-0 flex place-content-center gap-0 z-50 px-4">
-        <img src="/assets/CLC_Logo_Xsmall_White.svg" class="w-36 h-auto mr-20">
+        <img src="/assets/CLC_Logo_Xsmall_White.svg" class="w-36 h-auto mr-20 cursor-pointer" x-on:click="document.getElementById('components').contentWindow.scrollTo({top: 0, behavior: 'smooth'})">
         <button id="default" title="sm"
         @click="width = 'w-[640px] min-w-[640px]'"
         class="flex flex-col items-center text-white focus:outline-none focus:bg-sky-100 p-4 focus:text-gray-800">
@@ -94,10 +94,10 @@
         </button>
     </div>
 
-    <div class="bg-gray-100 flex flex-row items-start place-content-center">
+    <div class="bg-gray-100 flex flex-row items-start place-content-center overflow-hidden">
     <!-- breakpoints -->
-    <div :class="width">
-    <iframe src="components.html" class="w-full h-screen"></iframe>
+    <div :class="width" class="overflow-hidden">
+    <iframe src="components.html" class="w-full h-screen overflow-hidden" id="components"></iframe>
     <!--end breakpoints-->
     </div> 
     </div>
