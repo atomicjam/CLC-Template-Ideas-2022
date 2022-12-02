@@ -10,7 +10,7 @@
 
 <body id="top" class="smooth-scroll m-0 bg-clc-gray">
     <section class="relative" x-data="{width: 'w-[640px] min-w-[640px]'}">    
-    <div class="relative top-0 bg-clc-gray w-full my-0 flex place-content-center gap-0 z-50 px-4">
+    <div class="sticky top-0 bg-clc-gray w-full my-0 flex place-content-center gap-0 z-50 px-4">
         <img src="/assets/CLC_Logo_Xsmall_White.svg" class="w-36 h-auto mr-20 cursor-pointer" x-on:click="document.getElementById('components').contentWindow.scrollTo({top: 0, behavior: 'smooth'})">
         <button id="default" title="sm"
         @click="width = 'w-[640px] min-w-[640px]'"
@@ -54,7 +54,7 @@
 
         <button title="xl" 
         @click="width = 'w-[1280px] min-w-[1280px]'"
-        class="flex flex-col items-center text-white focus:outline-none focus:bg-sky-100 p-4 focus:text-gray-800">
+        class="flex flex-col items-center text-white focus:outline-none focus:bg-sky-100 p-4 focus:text-gray-800 animate-wiggle-once">
             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-pc-display"
                 viewBox="0 0 16 16">
                 <path
