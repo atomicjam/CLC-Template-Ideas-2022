@@ -2921,6 +2921,10 @@ select {
 }
 
 @media (min-width: 1280px) {
+  .xl\:max-w-4xl {
+    max-width: 56rem;
+  }
+
   .xl\:prose-xl {
     font-size: 1.25rem;
     line-height: 1.8;
@@ -3156,6 +3160,16 @@ select {
   .xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
