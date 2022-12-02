@@ -2164,10 +2164,6 @@ select {
   transition-duration: 150ms;
 }
 
-.delay-1000 {
-  transition-delay: 1000ms;
-}
-
 .duration-300 {
   transition-duration: 300ms;
 }
