@@ -11,4 +11,11 @@
         src: url('/fonts/verlag-light-webfont.woff2') format('woff2'), url('/fonts/verlag-light-webfont.woff') format('woff');
     }
 
+    .clippath-sm {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 96%, 52% 96%, 50% 97%, 48% 96%, 0 96%);
+    }
+    .clippath-lg {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 96%, 51% 96%, 50% 97%, 49% 96%, 0 96%);
+    }
+
 }
