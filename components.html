@@ -10,8 +10,8 @@
 
 <body id="top" class="smooth-scroll m-0 bg-gray-100">
 
-<div class="fixed top-4 right-1 z-50 hidden">
-    <a href="#nohero" class="bg-black text-white px-4 py-2 m-1 text-xs">DEV JUMP</a>
+<div class="fixed top-4 right-1 z-50">
+    <a href="#notice" class="bg-black text-white px-4 py-2 m-1 text-xs">DEV JUMP</a>
     <a href="#top" class="bg-black text-white px-4 py-2 m-1 text-xs">TOP</a>
 </div>
 
@@ -2277,22 +2277,79 @@
     </div>
 </section>
 
-<h2 class="text-xl uppercase p-4" id="nohero">Popout Notice</h2>
+<!--done-->
+<h2 class="text-xl uppercase p-4" id="notice">Popout Notice</h2>
 <section>
     <h3 class="text-md px-4 text-right">White section background colour</h3>
-    <div class="m-4 p-16 bg-white">
+    <div class="m-4 p-0 bg-white">
+        <div x-data="{ open: true }" x-show="open" class="grid bg-white z-50">
+            <div class="grid grid-cols-1 place-self-center h-auto px-4 py-16">
+                <div class="bg-clc-green text-white m-16 md:m-0">
+                    <img src="/assets/pic9.jpg" class="object-cover md:h-full md:float-left md:w-56 md:mr-16">
+                    <div class="px-8 py-8 md:px-16 md:py-12 max-w-2xl">
+                        <h2 class="text-white uppercase text-2xl mb-4">(Very) Early Access...</h2>
+                        <p>Alpha does not represent quality of final product. Thank you for your understanding.</p>
+                    </div>
+                </div>
+                <div class="col-span-2 text-clc-green lg:p-4 text-center text-3xl cursor-pointer">
+                    X
+                </div>
+            </div>
+        </div>
     </div>
 
     <h3 class="text-md px-4 text-right">Primary section background colour</h3>
-    <div class="m-4 p-16 bg-clc-green">
+    <div class="m-4 p-0 bg-clc-green">
+        <div x-data="{ open: true }" x-show="open" class="grid bg-clc-green z-50">
+            <div class="grid grid-cols-1 place-self-center h-auto px-4 py-16">
+                <div class="bg-white m-16 md:m-0">
+                    <img src="/assets/pic9.jpg" class="object-cover md:h-full md:float-left md:w-56 md:mr-16">
+                    <div class="px-8 py-8 md:px-16 md:py-12 max-w-2xl">
+                        <h2 class="text-clc-green uppercase text-2xl mb-4">(Very) Early Access...</h2>
+                        <p>Alpha does not represent quality of final product. Thank you for your understanding.</p>
+                    </div>
+                </div>
+                <div class="col-span-2 text-white lg:p-4 text-center text-3xl cursor-pointer">
+                    X
+                </div>
+            </div>
+        </div>
     </div>
 
     <h3 class="text-md px-4 text-right">Tertiary section background colour</h3>
-    <div class="m-4 p-16 bg-clc-gray">
+    <div class="m-4 p-0 bg-clc-gray">
+        <div x-data="{ open: true }" x-show="open" class="grid bg-clc-gray z-50">
+            <div class="grid grid-cols-1 place-self-center h-auto px-4 py-16">
+                <div class="bg-white m-16 md:m-0">
+                    <img src="/assets/pic9.jpg" class="object-cover md:h-full md:float-left md:w-56 md:mr-16">
+                    <div class="px-8 py-8 md:px-16 md:py-12 max-w-2xl">
+                        <h2 class="text-clc-green uppercase text-2xl mb-4">(Very) Early Access...</h2>
+                        <p>Alpha does not represent quality of final product. Thank you for your understanding.</p>
+                    </div>
+                </div>
+                <div class="col-span-2 text-white lg:p-4 text-center text-3xl cursor-pointer">
+                    X
+                </div>
+            </div>
+        </div>
     </div>
 
     <h3 class="text-md px-4 text-right">Quaternary section background colour</h3>
-    <div class="m-4 p-16 bg-clc-pea">
+    <div class="m-4 p-0 bg-clc-pea">
+        <div x-data="{ open: true }" x-show="open" class="grid bg-clc-pea z-50">
+            <div class="grid grid-cols-1 place-self-center h-auto px-4 py-16">
+                <div class="bg-white m-16 md:m-0">
+                    <img src="/assets/pic9.jpg" class="object-cover md:h-full md:float-left md:w-56 md:mr-16">
+                    <div class="px-8 py-8 md:px-16 md:py-12 max-w-2xl">
+                        <h2 class="text-clc-green uppercase text-2xl mb-4">(Very) Early Access...</h2>
+                        <p>Alpha does not represent quality of final product. Thank you for your understanding.</p>
+                    </div>
+                </div>
+                <div class="col-span-2 text-white lg:p-4 text-center text-3xl cursor-pointer">
+                    X
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
